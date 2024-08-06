@@ -13,7 +13,7 @@
       And I enter account number as <verifyaccountnumber>
       And I enter amount as <amount>
       And I click send payment button
-      And the system displays "Bill Payment Complete"
+      And the system displays "<message>"
 
       Examples:
         | payeename | address         | city         | state        | zipcode | phonenumber | accountnumber | verifyaccountnumber | amount | message                     |
