@@ -1,0 +1,7 @@
+com\automation\stepdefinitions\LoginStepdefs.class
+com\automation\pages\Register.class
+com\automation\pages\Login.class
+com\automation\constants\Constants.class
+com\automation\pages\BasePage.class
+TestRunner.class
+Hooks.class

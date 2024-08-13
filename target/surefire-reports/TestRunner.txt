@@ -1,0 +1,96 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 25.33 s <<< FAILURE! -- in TestRunner
+Login.User with invalid credentials -- Time elapsed: 8.946 s <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: is "ParaBank | Accounts Overview"
+     but: was "ParaBank | Error"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at com.automation.stepdefinitions.LoginStepdefs.theSystemDisplaysTheHomePage(LoginStepdefs.java:57)
+	at ✽.The system displays the home page(file:///C:/Users/Dell/IdeaProjects/cucumber_test_automation_framework/src/test/resources/features/login.feature:18)
+
+Register user. -- Time elapsed: 4.481 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I am on the parabank website landing page' and 14 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("I am on the parabank website landing page")
+public void i_am_on_the_parabank_website_landing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I click the register link")
+public void i_click_the_register_link() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter firstname as {string}")
+public void i_enter_firstname_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter lastname as {string}")
+public void i_enter_lastname_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter address as {string}")
+public void i_enter_address_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter city as {string}")
+public void i_enter_city_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter state as {string}")
+public void i_enter_state_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter zipcode as {string}")
+public void i_enter_zipcode_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter phone as {string}")
+public void i_enter_phone_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter ssn as {string}")
+public void i_enter_ssn_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter username as {string}")
+public void i_enter_username_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter password as {string}")
+public void i_enter_password_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I enter confirm as {string}")
+public void i_enter_confirm_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I click the register button")
+public void i_click_the_register_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the system confirms the registration")
+public void the_system_confirms_the_registration() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
