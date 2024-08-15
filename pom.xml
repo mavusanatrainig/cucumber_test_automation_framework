@@ -54,13 +54,21 @@
             <version>2.2</version>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.34</version>
+            <scope>provided</scope>
+        </dependency>
+
     </dependencies>
     <build>
         <plugins>
             <plugin>
                 <groupId>net.masterthought</groupId>
                 <artifactId>maven-cucumber-reporting</artifactId>
-                <version>5.6.0</version>
+                <version>2.8.0</version>
                 <executions>
                     <execution>
                         <id>execution</id>
@@ -69,16 +77,10 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <projectName>cucumberReporting</projectName>
-                            <skip>false</skip>
+                            <projectName>CucumberWebGui</projectName>
                             <outputDirectory>${project.build.directory}</outputDirectory>
-                            <inputDirectory>${project.build.directory}</inputDirectory>
-                            <jsonFiles>
-                                <param>**/*.json</param>
-                            </jsonFiles>
-                            <mergeFeaturesById>false</mergeFeaturesById>
-                            <mergeFeaturesWithRetest>false</mergeFeaturesWithRetest>
-                            <checkBuildResult>false</checkBuildResult>
+                            <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
+                            <skippedFails>true</skippedFails>
                         </configuration>
                     </execution>
                 </executions>

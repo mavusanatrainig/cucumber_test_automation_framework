@@ -1,33 +1,29 @@
 import com.automation.constants.Constants;
 import io.cucumber.java.After;
-import io.cucumber.java.AfterAll;
 import io.cucumber.java.Before;
-import io.cucumber.java.BeforeAll;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-
-import java.io.File;
-import java.lang.reflect.Array;
-import java.nio.file.Files;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 public class Hooks {
 
-
+    private WebDriver driver;
 
     @Before
     public void setup (){
 
-        Constants.driver = new ChromeDriver();
-        Constants.driver.get("https://parabank.parasoft.com/parabank/index.htm");
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        Constants.driver=driver;
+        driver.get("https://parabank.parasoft.com/parabank/index.htm");
 
     }
 
     @After
     public void closure(){
-        Constants.driver.close();
+
+
+
+        driver.quit();
         Constants.driver.quit();
     }
 }
