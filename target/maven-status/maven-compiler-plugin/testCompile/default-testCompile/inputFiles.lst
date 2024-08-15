@@ -1,7 +1,8 @@
 C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\java\com\automation\constants\Constants.java
 C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\java\com\automation\pages\BasePage.java
-C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\java\com\automation\pages\Login.java
-C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\java\com\automation\pages\Register.java
+C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\java\com\automation\pages\LoginPage.java
+C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\java\com\automation\pages\RegisterPage.java
 C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\java\com\automation\stepdefinitions\LoginStepdefs.java
+C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\java\com\automation\utilities\ScreenShot.java
 C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\java\Hooks.java
 C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\java\TestRunner.java
