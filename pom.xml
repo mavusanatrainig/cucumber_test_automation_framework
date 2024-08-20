@@ -36,10 +36,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/net.masterthought/cucumber-reporting -->
-        <!-- https://mvnrepository.com/artifact/net.masterthought/maven-cucumber-reporting -->
-
-
 
 
         <dependency>
@@ -60,6 +56,12 @@
             <artifactId>lombok</artifactId>
             <version>1.18.34</version>
             <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.5</version>
         </dependency>
 
     </dependencies>
