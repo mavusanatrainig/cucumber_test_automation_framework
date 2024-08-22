@@ -1,5 +1,6 @@
 com\automation\utilities\ScreenShot.class
 com\automation\driver\manager\EdgeDriverManager.class
+com\automation\listeners\TestListener.class
 com\automation\driver\factory\DriverFactory.class
 com\automation\driver\manager\SafariDriverManager.class
 com\automation\pages\BasePage.class
@@ -11,6 +12,7 @@ com\automation\driver\manager\FirefoxDriverManager.class
 com\automation\pages\LoginPage.class
 com\automation\driver\factory\DriverFactory$1.class
 com\automation\driver\factory\BrowserList.class
+TestRunnerTestng.class
 com\automation\pages\RegisterPage.class
 com\automation\constants\Constants.class
 com\automation\driver\manager\ChromeDriverManager.class
