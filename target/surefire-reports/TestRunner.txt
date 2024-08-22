@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestRunner
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 21.08 s <<< FAILURE! -- in TestRunner
-Login.User with valid credentials -- Time elapsed: 11.20 s <<< FAILURE!
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 33.48 s <<< FAILURE! -- in TestRunner
+Login.User with valid credentials -- Time elapsed: 15.93 s <<< FAILURE!
 java.lang.AssertionError: 
 
 Expected: is "ParaBank | Welcome | Online Banking"
@@ -13,7 +13,7 @@ Expected: is "ParaBank | Welcome | Online Banking"
 	at com.automation.stepdefinitions.LoginStepdefs.theSystemDisplaysTheHomePage(LoginStepdefs.java:55)
 	at ✽.The system displays the home page(file:///C:/Users/Dell/IdeaProjects/cucumber_test_automation_framework/src/test/resources/features/login.feature:9)
 
-Login.User with invalid credentials -- Time elapsed: 8.620 s <<< FAILURE!
+Login.User with invalid credentials -- Time elapsed: 16.13 s <<< FAILURE!
 java.lang.AssertionError: 
 
 Expected: is "ParaBank | Welcome | Online Banking"
