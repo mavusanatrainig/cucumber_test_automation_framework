@@ -23,7 +23,7 @@ public abstract class BasePage {
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
-        log.info("Init");
+//        log.info("Init");
         PageFactory.initElements(driver,this);
     }
 

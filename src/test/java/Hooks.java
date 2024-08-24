@@ -2,8 +2,9 @@ import com.automation.constants.Constants;
 import com.automation.driver.factory.DriverFactory;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+//import lombok.extern.slf4j.Slf4j;
+//import org.apache.log4j.Logger;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
