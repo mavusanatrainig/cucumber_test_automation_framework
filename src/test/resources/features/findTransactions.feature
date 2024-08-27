@@ -1,8 +1,10 @@
+
 Feature: Find Transactions on Parabank
 
   Background:
+#  @loginThandiwe
     Given I am on the Parabank Find Transactions page
-
+  @loginThandiwe
   Scenario Outline: Find transactions by Transaction ID
     Given I select account "<account>" from the dropdown
     When I enter transaction ID "<transactionID>" in the "Find by Transaction ID" field
@@ -16,7 +18,7 @@ Feature: Find Transactions on Parabank
   Scenario Outline: Find transactions by Date
     Given I select account "<account>" from the dropdown
     When I enter date "<date>" in the "Find by Date" field
-    And I click the "Find Transactions" button
+    And I click the Find Transactions by Date button
     Then I should see the transactions from date "<date>"
     Examples:
       | account | date       |
@@ -25,8 +27,8 @@ Feature: Find Transactions on Parabank
 
   Scenario Outline: Find transactions by Date Range
     Given I select account "<account>" from the dropdown
-    When I enter start date "<startDate>" and end date "<endDate>" in the "Find by Date Range" fields
-    And I click the "Find Transactions" button
+    When I enter start date "<startDate>" and end date "<endDate>" in the Find by Date Range fields
+    And I click the Find Transactions by Date Range button
     Then I should see the transactions between "<startDate>" and "<endDate>"
     Examples:
       | account | startDate  | endDate    |
@@ -35,8 +37,8 @@ Feature: Find Transactions on Parabank
 
   Scenario Outline: Find transactions by Amount
     Given I select account "<account>" from the dropdown
-    When I enter amount "<amount>" in the "Find by Amount" field
-    And I click the "Find Transactions" button
+    When I enter amount "<amount>" in the Find by Amount field
+    And I click the Find Transactions by Amount button
     Then I should see the transactions with amount "<amount>"
     Examples:
       | account | amount  |
