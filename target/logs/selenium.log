@@ -1,42 +1,9 @@
-[ INFO]  Hooks setup main 2024-08-22 20:00:33,202(Hooks.java:23) - Initialize web driver
-[ INFO]  Hooks closure main 2024-08-22 20:00:41,720(Hooks.java:45) - Close driver successfully
-[ INFO]  Hooks setup main 2024-08-22 20:00:42,302(Hooks.java:23) - Initialize web driver
-[ INFO]  Hooks closure main 2024-08-22 20:00:48,842(Hooks.java:45) - Close driver successfully
-[ INFO]  Hooks setup main 2024-08-22 20:00:49,230(Hooks.java:23) - Initialize web driver
-[ INFO]  Hooks closure main 2024-08-22 20:00:54,735(Hooks.java:45) - Close driver successfully
-[ INFO]  Hooks setup main 2024-08-22 20:00:54,990(Hooks.java:23) - Initialize web driver
-[ INFO]  Hooks closure main 2024-08-22 20:01:01,343(Hooks.java:45) - Close driver successfully
-[ INFO]  Hooks setup main 2024-08-22 20:01:01,556(Hooks.java:23) - Initialize web driver
-[ INFO]  Hooks closure main 2024-08-22 20:01:05,454(Hooks.java:45) - Close driver successfully
-[ INFO]  Hooks setup main 2024-08-22 20:01:05,720(Hooks.java:23) - Initialize web driver
-[ INFO]  Hooks closure main 2024-08-22 20:01:10,946(Hooks.java:45) - Close driver successfully
-[ INFO]  Hooks setup main 2024-08-22 20:01:11,179(Hooks.java:23) - Initialize web driver
-[ INFO]  Hooks closure main 2024-08-22 20:01:13,716(Hooks.java:45) - Close driver successfully
-[ INFO]  Hooks setup main 2024-08-22 20:01:14,086(Hooks.java:23) - Initialize web driver
-[ INFO]  Hooks closure main 2024-08-22 20:01:19,055(Hooks.java:45) - Close driver successfully
-[ INFO]  Hooks setup main 2024-08-22 20:01:19,298(Hooks.java:23) - Initialize web driver
-[ INFO]  Hooks closure main 2024-08-22 20:01:21,919(Hooks.java:45) - Close driver successfully
-[ INFO]  Hooks setup main 2024-08-22 20:01:22,185(Hooks.java:23) - Initialize web driver
-[ INFO]  Hooks closure main 2024-08-22 20:01:28,289(Hooks.java:45) - Close driver successfully
-[ INFO]  Hooks setup main 2024-08-22 20:01:28,547(Hooks.java:23) - Initialize web driver
-[ INFO]  Hooks closure main 2024-08-22 20:01:33,100(Hooks.java:45) - Close driver successfully
-[ INFO]  Hooks setup main 2024-08-22 20:01:33,365(Hooks.java:23) - Initialize web driver
-[ INFO]  Hooks closure main 2024-08-22 20:01:37,418(Hooks.java:45) - Close driver successfully
-[ INFO]  Hooks setup main 2024-08-22 20:01:37,672(Hooks.java:23) - Initialize web driver
-[ INFO]  Hooks closure main 2024-08-22 20:01:41,416(Hooks.java:45) - Close driver successfully
-[ INFO]  Hooks setup main 2024-08-22 20:01:41,672(Hooks.java:23) - Initialize web driver
-[ INFO]  Hooks closure main 2024-08-22 20:01:45,595(Hooks.java:45) - Close driver successfully
-[ INFO]  Hooks setup main 2024-08-22 20:01:45,790(Hooks.java:23) - Initialize web driver
-[ INFO]  Hooks closure main 2024-08-22 20:01:48,645(Hooks.java:45) - Close driver successfully
-[ INFO]  Hooks setup main 2024-08-22 20:01:48,945(Hooks.java:23) - Initialize web driver
-[ INFO]  Hooks closure main 2024-08-22 20:01:54,875(Hooks.java:45) - Close driver successfully
-[ INFO]  Hooks setup main 2024-08-22 20:01:55,122(Hooks.java:23) - Initialize web driver
-[ INFO]  Hooks closure main 2024-08-22 20:02:00,031(Hooks.java:45) - Close driver successfully
-[ INFO]  Hooks setup main 2024-08-22 20:02:00,281(Hooks.java:23) - Initialize web driver
-[ INFO]  com.automation.listeners.TestListener beforeClick main 2024-08-22 20:02:04,007(TestListener.java:126) - Before Clicking the element with tag -input
-[ INFO]  Hooks closure main 2024-08-22 20:02:05,216(Hooks.java:45) - Close driver successfully
-[ INFO]  Hooks setup main 2024-08-22 20:02:05,473(Hooks.java:23) - Initialize web driver
-[ INFO]  com.automation.listeners.TestListener beforeClick main 2024-08-22 20:02:09,616(TestListener.java:126) - Before Clicking the element with tag -input
-[ INFO]  Hooks closure main 2024-08-22 20:02:10,719(Hooks.java:45) - Close driver successfully
-[ INFO]  Hooks setup main 2024-08-22 20:02:10,983(Hooks.java:23) - Initialize web driver
-[ INFO]  Hooks closure main 2024-08-22 20:02:14,453(Hooks.java:45) - Close driver successfully
+[ INFO]  TestRunnerTestng lambda$setUpClass$0 main 2024-08-29 20:02:07,320(TestRunnerTestng.java:35) - environment:preprod
+[ INFO]  TestRunnerTestng lambda$setUpClass$0 main 2024-08-29 20:02:07,325(TestRunnerTestng.java:35) - password:kamo
+[ INFO]  TestRunnerTestng lambda$setUpClass$0 main 2024-08-29 20:02:07,325(TestRunnerTestng.java:35) - url:https://www.facebook.com
+[ INFO]  TestRunnerTestng lambda$setUpClass$0 main 2024-08-29 20:02:07,326(TestRunnerTestng.java:35) - browser:firefox
+[ INFO]  TestRunnerTestng lambda$setUpClass$0 main 2024-08-29 20:02:07,326(TestRunnerTestng.java:35) - username:mavusana
+[ INFO]  Hooks setup main 2024-08-29 20:02:07,494(Hooks.java:23) - Initialize web driver
+[ INFO]  Hooks closure main 2024-08-29 20:02:17,296(Hooks.java:45) - Close driver successfully
+[ INFO]  Hooks setup main 2024-08-29 20:02:19,074(Hooks.java:23) - Initialize web driver
+[ INFO]  Hooks closure main 2024-08-29 20:02:26,188(Hooks.java:45) - Close driver successfully

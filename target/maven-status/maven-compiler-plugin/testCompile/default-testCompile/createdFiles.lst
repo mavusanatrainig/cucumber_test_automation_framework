@@ -5,7 +5,6 @@ com\automation\driver\factory\DriverFactory.class
 com\automation\driver\manager\SafariDriverManager.class
 com\automation\pages\BasePage.class
 com\automation\driver\factory\Factory.class
-TestRunner.class
 Hooks.class
 com\automation\stepdefinitions\LoginStepdefs.class
 com\automation\driver\manager\FirefoxDriverManager.class

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-29T20:02:06 SAST" name="Suite1" finished-at="2024-08-29T20:02:28 SAST" duration-ms="21962">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunnerTestng@548e6d58]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-08-29T20:02:06 SAST" name="Regression" finished-at="2024-08-29T20:02:28 SAST" duration-ms="21962">
+      <class name="TestRunnerTestng">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunnerTestng@548e6d58]" started-at="2024-08-29T20:02:06 SAST" name="setUpClass" finished-at="2024-08-29T20:02:07 SAST" duration-ms="1058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7ed49a7f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunnerTestng@548e6d58]" started-at="2024-08-29T20:02:07 SAST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T20:02:19 SAST" duration-ms="11712" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is "https://parabank.parasoft.com/parabank/index.htm"
+     but: was "https://www.facebook.com/"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is "https://parabank.parasoft.com/parabank/index.htm"
+     but: was "https://www.facebook.com/"
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+at com.automation.stepdefinitions.LoginStepdefs.iHaveTheParabankWebsiteURL(LoginStepdefs.java:36)
+at ✽.I have the parabank website URL(file:///C:/Users/Dell/IdeaProjects/cucumber_test_automation_framework/src/test/resources/features/login.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunnerTestng@548e6d58]" started-at="2024-08-29T20:02:19 SAST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-29T20:02:28 SAST" duration-ms="9081" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Expected: is "https://parabank.parasoft.com/parabank/index.htm"
+     but: was "https://www.facebook.com/"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Expected: is "https://parabank.parasoft.com/parabank/index.htm"
+     but: was "https://www.facebook.com/"
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+at com.automation.stepdefinitions.LoginStepdefs.iHaveTheParabankWebsiteURL(LoginStepdefs.java:36)
+at ✽.I have the parabank website URL(file:///C:/Users/Dell/IdeaProjects/cucumber_test_automation_framework/src/test/resources/features/login.feature:14)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunnerTestng@548e6d58]" started-at="2024-08-29T20:02:28 SAST" name="tearDownClass" finished-at="2024-08-29T20:02:28 SAST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunnerTestng -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite1 -->
+</testng-results>

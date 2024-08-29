@@ -21,10 +21,10 @@ public class Hooks {
     public void setup () {
         TestListener listener =  new TestListener();
             log.info("Initialize web driver");
-            driver = new DriverFactory().createInstance("chrome");
+            driver = new DriverFactory().createInstance(Constants.configuration.get("browser"));
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-            driver.get("https://parabank.parasoft.com/parabank/index.htm");
+            driver.get(Constants.configuration.get("url"));
 
         EventFiringDecorator<WebDriver> decorator = new EventFiringDecorator<>(listener);
 

@@ -15,8 +15,24 @@
       And I click send payment button
       And the system displays "<message>"
 
+      @dev
       Examples:
         | payeename | address         | city         | state        | zipcode | phonenumber | accountnumber | verifyaccountnumber | amount | message                     |
         | Taylor    | 143 Kent Avenue | Johannesburg | Johannesburg | 4000    | 0612345678  | 1122334455    | 1122334455          | 500    | Bill Payment Complete       |
         | Taylor    | 143 Kent Avenue | Johannesburg | Johannesburg | 4000    | 0612345678  | 1122334455    | 1122334455          | KK     | Please enter a valid amount |
         | Taylor    | 143 Kent Avenue | Johannesburg | Johannesburg | 4000    | 0612345678  | 1122334455    | 1122334455          | KK     | Account number is required  |
+
+      @preprod
+      Examples:
+        | payeename | address         | city         | state        | zipcode | phonenumber | accountnumber | verifyaccountnumber | amount | message                     |
+        | Taylor    | 143 Kent Avenue | Johannesburg | Johannesburg | 4000    | 0612345678  | 1122334455    | 1122334455          | 500    | Bill Payment Complete       |
+        | Taylor    | 143 Kent Avenue | Johannesburg | Johannesburg | 4000    | 0612345678  | 1122334455    | 1122334455          | KK     | Please enter a valid amount |
+        | Taylor    | 143 Kent Avenue | Johannesburg | Johannesburg | 4000    | 0612345678  | 1122334455    | 1122334455          | KK     | Account number is required  |
+
+      @uat
+      Examples:
+        | payeename | address         | city         | state        | zipcode | phonenumber | accountnumber | verifyaccountnumber | amount | message                     |
+        | Taylor    | 143 Kent Avenue | Johannesburg | Johannesburg | 4000    | 0612345678  | 1122334455    | 1122334455          | 500    | Bill Payment Complete       |
+        | Taylor    | 143 Kent Avenue | Johannesburg | Johannesburg | 4000    | 0612345678  | 1122334455    | 1122334455          | KK     | Please enter a valid amount |
+        | Taylor    | 143 Kent Avenue | Johannesburg | Johannesburg | 4000    | 0612345678  | 1122334455    | 1122334455          | KK     | Account number is required  |
+
