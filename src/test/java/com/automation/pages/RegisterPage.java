@@ -1,117 +1,115 @@
 package com.automation.pages;
 
-import com.automation.utilities.ScreenShot;
+import com.automation.pages.BasePage;
 import io.cucumber.java.Scenario;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.core.Is.is;
 
 public class RegisterPage extends BasePage {
-
-    @FindBy(how = How.XPATH, using = "//*[@id=\"customer.firstName\"]")
+    @FindBy(how = How.NAME, using = "customer.firstName")
     private WebElement txtEnterFirstName;
-
-    @FindBy(how = How.XPATH, using = "//*[@id=\"customer.lastName\"]")
+    @FindBy(how = How.XPATH, using = "//input[@class='input'][@id='customer.lastName']")
     private WebElement txtEnterLastName;
-
-    @FindBy(how = How.XPATH, using = "//*[@id=\"customer.address.street\"]")
-    private WebElement txtEnterAddress;
-
-    @FindBy(how = How.XPATH, using = "//*[@id=\"customer.address.city\"]")
+    @FindBy(how = How.XPATH, using = "//input[@class='input'][@id='customer.address.street']")
+    private WebElement txtEnterStreet;
+    @FindBy(how = How.XPATH, using = "//input[@class='input'][@id='customer.address.city']")
     private WebElement txtEnterCity;
-
-    @FindBy(how = How.XPATH, using = "//*[@id=\"customer.address.state\"]")
+    @FindBy(how = How.XPATH, using = "//input[@class='input'][@id='customer.address.state']")
     private WebElement txtEnterState;
-
-    @FindBy(how = How.XPATH, using = "//*[@id=\"customer.address.zipCode\"]")
+    @FindBy(how = How.XPATH, using = "//input[@class='input'][@id='customer.address.zipCode']")
     private WebElement txtEnterZipCode;
-
-    @FindBy(how = How.XPATH, using = "//*[@id=\"customer.phoneNumber\"]")
+    @FindBy(how = How.XPATH, using = "//input[@class='input'][@id='customer.phoneNumber']")
     private WebElement txtEnterPhoneNumber;
-
-    @FindBy(how = How.XPATH, using = "//*[@id=\"customer.ssn\"]")
-    private WebElement txtEnterSSN;
-
-    @FindBy(how = How.XPATH, using = "//*[@id=\"customer.username\"]")
+    @FindBy(how = How.XPATH, using = "//input[@class='input'][@id='customer.ssn']")
+    private WebElement txtEnterSsn;
+    @FindBy(how = How.XPATH, using = "//input[@class='input'][@id='customer.username']")
     private WebElement txtEnterUsername;
-
-    @FindBy(how = How.XPATH, using = "//*[@id=\"customer.password\"]")
+    @FindBy(how = How.XPATH, using = "//input[@class='input'][@id='customer.password']")
     private WebElement txtEnterPassword;
-
-    @FindBy(how = How.XPATH, using = "//*[@id=\"repeatedPassword\"]")
-    private WebElement txtEnterConfirmPassword;
-
-    @FindBy(how = How.XPATH, using = "//input[@value='Register']")
-    private WebElement btnRegister;
-
+    @FindBy(how = How.XPATH, using = "//input[@class='input'][@id='repeatedPassword']")
+    private WebElement txtEnterRepeatedPassword;
+    @FindBy(how = How.NAME, using = "customer.address.street")
+    private WebElement txtEnterAddress;
+    @FindBy(how = How.XPATH, using = "//input[contains(@value,'Register')]")
+    private WebElement btnClickRegister;
+    @FindBy(how = How.XPATH, using = "//a[@href='register.htm'][contains(.,'Register')]")
+    private WebElement linkRegister;
+    @FindBy(how = How.XPATH, using = "/html[1]/body[1]/div[1]/div[3]/div[2]/p[1]")
+    private WebElement labelSuccessfulAccountCreation;
     public RegisterPage(WebDriver driver, Scenario scenario) {
         super(driver, scenario);
     }
 
     @Override
     public boolean isAt() {
-        return txtEnterFirstName.isDisplayed();
+        return false;
     }
+    public void navigateToHomePage() {
+        assertThat(driver.getCurrentUrl(), is("https://parabank.parasoft.com/parabank/index.htm"));
+    }
+    public void clickRegisterLink() {
+        driver.get("https://parabank.parasoft.com/parabank/register.htm");
+        linkRegister.click();
+        assertThat(driver.getCurrentUrl(), is("https://parabank.parasoft.com/parabank/register.htm"));
 
+    }
     public void enterFirstName(String name) {
         txtEnterFirstName.clear();
         txtEnterFirstName.sendKeys(name);
     }
-
-    public void enterLastName(String lastName) {
+    public void enterLastName(String name) {
         txtEnterLastName.clear();
-        txtEnterLastName.sendKeys(lastName);
+        txtEnterLastName.sendKeys(name);
     }
-
-    public void enterAddress(String address) {
+    public void enterAddress(String name) {
         txtEnterAddress.clear();
-        txtEnterAddress.sendKeys(address);
+        txtEnterAddress.sendKeys(name);
     }
-
-    public void enterCity(String city) {
+    public void enterCity(String name) {
         txtEnterCity.clear();
-        txtEnterCity.sendKeys(city);
+        txtEnterCity.sendKeys(name);
     }
 
-    public void enterState(String state) {
+    public void enterState(String name) {
         txtEnterState.clear();
-        txtEnterState.sendKeys(state);
+        txtEnterState.sendKeys(name);
     }
-
-    public void enterZipCode(String zipCode) {
+    public void enterZipCode(String name) {
         txtEnterZipCode.clear();
-        txtEnterZipCode.sendKeys(zipCode);
+        txtEnterZipCode.sendKeys(name);
     }
-
-    public void enterPhoneNumber(String phone) {
+    public void enterPhone(String name) {
         txtEnterPhoneNumber.clear();
-        txtEnterPhoneNumber.sendKeys(phone);
+        txtEnterPhoneNumber.sendKeys(name);
     }
-
-    public void enterSSN(String ssn) {
-        txtEnterSSN.clear();
-        txtEnterSSN.sendKeys(ssn);
+    public void enterSSN(String name) {
+        txtEnterSsn.clear();
+        txtEnterSsn.sendKeys(name);
     }
-
-    public void enterUsername(String username) {
+    public void enterUsername(String name) {
         txtEnterUsername.clear();
-        txtEnterUsername.sendKeys(username);
+        txtEnterUsername.sendKeys(name);
     }
-
-    public void enterPassword(String password) {
+    public void enterPassword(String name) {
         txtEnterPassword.clear();
-        txtEnterPassword.sendKeys(password);
+        txtEnterPassword.sendKeys(name);
     }
-
-    public void enterConfirmPassword(String confirmPassword) {
-        txtEnterConfirmPassword.clear();
-        txtEnterConfirmPassword.sendKeys(confirmPassword);
+    public void enterConfirmPassword(String name) {
+        txtEnterRepeatedPassword.clear();
+        txtEnterRepeatedPassword.sendKeys(name);
     }
-
     public void clickRegisterButton() {
-        ScreenShot.captureScreenShot(scenario);
-        btnRegister.click();
-
+//        btnClickRegister.clear();
+        btnClickRegister.click();
+    }
+    public void verifyCreationMessage(String msg){
+        assertThat( labelSuccessfulAccountCreation.getText(),is(msg));
     }
 }
+

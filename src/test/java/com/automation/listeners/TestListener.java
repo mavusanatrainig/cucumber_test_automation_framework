@@ -24,6 +24,7 @@ public class TestListener implements WebDriverListener {
     }
 
     public void onError(Object target, Method method, Object[] args, InvocationTargetException e) {
+        log.error("Error found "+ target.getClass().getName() + " "+ method.getName() + " "+ e.getMessage());
     }
 
     public void beforeAnyWebDriverCall(WebDriver driver, Method method, Object[] args) {
@@ -123,18 +124,22 @@ public class TestListener implements WebDriverListener {
     }
 
     public void beforeClick(WebElement element) {
+        log.info("Before Clicking the element with tag -" +element.getTagName() );
     }
 
     public void afterClick(WebElement element) {
+        log.info("After  Clicking the element with tag" +element.getTagName() );
     }
 
     public void beforeSubmit(WebElement element) {
+
     }
 
     public void afterSubmit(WebElement element) {
     }
 
     public void beforeSendKeys(WebElement element, CharSequence... keysToSend) {
+
     }
 
     public void afterSendKeys(WebElement element, CharSequence... keysToSend) {
@@ -183,9 +188,13 @@ public class TestListener implements WebDriverListener {
     }
 
     public void beforeFindElements(WebElement element, By locator) {
+
+        log.info("Before find element "+ element.getTagName() + " "+ locator.toString());
     }
 
     public void afterFindElements(WebElement element, By locator, List<WebElement> result) {
+        log.info("After find element "+ element.getTagName() + " "+ locator.toString());
+
     }
 
     public void beforeIsDisplayed(WebElement element) {
