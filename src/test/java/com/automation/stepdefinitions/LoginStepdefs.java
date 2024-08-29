@@ -65,4 +65,15 @@ public class LoginStepdefs {
         loginPage.clickLogin();
 
     }
+
+    @And("the system displays error message {string}")
+    public void ValidateErrorMessage(String errorMessage) {
+       loginPage.ValidateErrorMessage(errorMessage);
+    }
+
+    @Then("The system displays the error page")
+    public void verifyErrorPage() {
+        loginPage.validateErrorPage();
+
+    }
 }
