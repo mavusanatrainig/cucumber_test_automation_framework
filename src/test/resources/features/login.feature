@@ -15,5 +15,5 @@ Feature: Login
     When I enter the username as "mavusana"
     And   I enter the password as "tele"
     And I click the login button
-    Then The system displays the home page
-    And the system displays a message "welcome Vusi Pelo"
+    Then The system displays the error page
+    And the system displays error message "Error!"

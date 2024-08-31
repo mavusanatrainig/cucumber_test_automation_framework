@@ -2,8 +2,8 @@ package com.automation.pages;
 
 import com.automation.utilities.ScreenShot;
 import io.cucumber.java.Scenario;
-import lombok.extern.slf4j.Slf4j;
-import org.openqa.selenium.By;
+//import lombok.extern.slf4j.Slf4j;
+//import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -15,14 +15,21 @@ import static org.hamcrest.core.Is.is;
 
 
 public class LoginPage extends BasePage{
-    @FindBy(how=How.NAME,  using="username")
+    @FindBy(xpath = "//*[@id='loginPanel']/form/div[1]/input")
     private WebElement txtUsername;
-    @FindBy(how=How.NAME,  using="password")
+
+    @FindBy(xpath = "//*[@id='loginPanel']/form/div[2]/input")
     private WebElement txtPassword;
-    @FindBy(how = How.XPATH, using = "//*[@id=\"loginPanel\"]/form/div[3]/input")
+
+    @FindBy(xpath = "//*[@id='loginPanel']/form/div[3]/input")
     private WebElement btnLogin;
-    @FindBy(how = How.XPATH, using ="\"//*[@id=\\\"leftPanel\\\"]/p\"" )
-    private WebElement lblWelcomeMsg;
+
+    @FindBy(xpath = "//*[@id=\"leftPanel\"]/p")
+    private WebElement welcomeMessage;
+
+    @FindBy(xpath = "//*[@id=\"rightPanel\"]/h1")
+    private WebElement errorMessage;
+
 
     public LoginPage(WebDriver driver, Scenario scenario) {
         super(driver, scenario);
@@ -51,13 +58,23 @@ public class LoginPage extends BasePage{
     }
 
     public void validateHomePage(){
-//        assertThat(driver.getTitle(),is("ParaBank | Welcome | Online Banking"));
         assertThat(driver.getTitle(),is("ParaBank | Accounts Overview"));
     }
 
     public void verifyWelcomeMessage(String msg){
 
-       assertThat( lblWelcomeMsg.getText(),is(msg));
+       assertThat(welcomeMessage.getText(),is(msg));
+    }
+    public void validateErrorPage(){
+        assertThat(driver.getTitle(),is("ParaBank | Error"));
+    }
+
+    public void ValidateErrorMessage(String msg){
+
+        assertThat(errorMessage.getText(),is(msg));
+    }
+    public String getPageTitle() {
+        return driver.getTitle();
     }
 
 }

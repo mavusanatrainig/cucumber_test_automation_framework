@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 
+@Slf4j
 public abstract class BasePage {
 
 
@@ -22,6 +23,7 @@ public abstract class BasePage {
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
+//        log.info("Init");
         PageFactory.initElements(driver,this);
     }
 

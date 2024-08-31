@@ -1,0 +1,9 @@
+[ INFO]  TestRunnerTestng lambda$setUpClass$0 main 2024-08-29 20:02:07,320(TestRunnerTestng.java:35) - environment:preprod
+[ INFO]  TestRunnerTestng lambda$setUpClass$0 main 2024-08-29 20:02:07,325(TestRunnerTestng.java:35) - password:kamo
+[ INFO]  TestRunnerTestng lambda$setUpClass$0 main 2024-08-29 20:02:07,325(TestRunnerTestng.java:35) - url:https://www.facebook.com
+[ INFO]  TestRunnerTestng lambda$setUpClass$0 main 2024-08-29 20:02:07,326(TestRunnerTestng.java:35) - browser:firefox
+[ INFO]  TestRunnerTestng lambda$setUpClass$0 main 2024-08-29 20:02:07,326(TestRunnerTestng.java:35) - username:mavusana
+[ INFO]  Hooks setup main 2024-08-29 20:02:07,494(Hooks.java:23) - Initialize web driver
+[ INFO]  Hooks closure main 2024-08-29 20:02:17,296(Hooks.java:45) - Close driver successfully
+[ INFO]  Hooks setup main 2024-08-29 20:02:19,074(Hooks.java:23) - Initialize web driver
+[ INFO]  Hooks closure main 2024-08-29 20:02:26,188(Hooks.java:45) - Close driver successfully
