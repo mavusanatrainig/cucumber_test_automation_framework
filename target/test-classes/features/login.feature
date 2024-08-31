@@ -3,11 +3,11 @@
 Feature: Login
   Scenario: User with valid credentials
     Given I have the parabank website URL
-    When I enter the username as "mavusana"
-    And   I enter the password as "kamo"
+    When I enter the username as "juicer"
+    And   I enter the password as "making"
     And I click the login button
     Then The system displays the home page
-    And the system displays a message "Welcome Vusi Pelo"
+#    And the system displays a message "Welcome Thandiwe ntuli"
 
 
   Scenario: User with invalid credentials

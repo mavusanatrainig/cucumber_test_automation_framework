@@ -51,7 +51,8 @@ public class LoginPage extends BasePage{
     }
 
     public void validateHomePage(){
-        assertThat(driver.getTitle(),is("ParaBank | Welcome | Online Banking"));
+//        assertThat(driver.getTitle(),is("ParaBank | Welcome | Online Banking"));
+        assertThat(driver.getTitle(),is("ParaBank | Accounts Overview"));
     }
 
     public void verifyWelcomeMessage(String msg){

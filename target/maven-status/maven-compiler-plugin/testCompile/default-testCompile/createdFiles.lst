@@ -1,8 +1,11 @@
-com\automation\stepdefinitions\LoginStepdefs.class
-com\automation\utilities\ScreenShot.class
-com\automation\pages\LoginPage.class
-com\automation\pages\RegisterPage.class
-com\automation\constants\Constants.class
-com\automation\pages\BasePage.class
+com/automation/stepdefinitions/RegisterStepdefs.class
+com/automation/pages/RegisterPage.class
+com/automation/utilities/ScreenShot.class
+com/automation/stepdefinitions/MyStepdefs.class
+com/automation/constants/Constants.class
+com/automation/pages/BasePage.class
+com/automation/stepdefinitions/LoginStepdefs.class
 TestRunner.class
+com/automation/pages/LoginPage.class
+com/automation/pages/FindTransactionsPage.class
 Hooks.class

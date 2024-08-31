@@ -1,9 +1,10 @@
 @register @smoke @regression
 Feature: Register user
-  Scenario Outline:
+
+  Scenario Outline: Register user
     Given I am on the parabank website landing page
     When I click the register link
-    And I enter firstname as "<firstname>"
+    And I enter name as "<first_name>"
     And I enter lastname as "<lastname>"
     And I enter address as "<address>"
     And I enter city as "<city>"
@@ -17,7 +18,7 @@ Feature: Register user
     Then I click the register button
     And the system confirms the registration
     Examples:
-      | firstname | lastname | address     | city    | state | zipcode | phone      | ssn            | username | password | confirm |
-      | Vusi      | Pelo     | 78 Primrose | Delmoew | Home  | 2230    | 0834083284 | 80982309480923 | masanana | kamo     |kamo     |
+      | first_name | lastname | address     | city    | state | zipcode | phone      | ssn            | username   | password | confirm |
+      | Thandiwe   | Murungu  | 78 Primrose | Delmoew | Home  | 2230    | 0834083284 | 80982309480923 | thandiwe07 | ntuli    | ntuli   |
 
 
