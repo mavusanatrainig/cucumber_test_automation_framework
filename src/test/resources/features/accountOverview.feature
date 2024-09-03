@@ -1,8 +1,7 @@
-@account @regression
+@accountOverview @regression
 
 
 Feature: Account Overview
-
   Scenario: Overview
     Given user is logged in to the Parabank website
     When user navigates to the "Account Overview" page
