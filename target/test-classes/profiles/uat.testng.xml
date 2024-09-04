@@ -5,9 +5,9 @@
         <parameter name="url" value="https://parabank.parasoft.com/parabank/index.htm"/>
         <parameter name="username" value="mavusana"></parameter>
         <parameter name="password" value="kamo"></parameter>
-        <parameter name="browser" value="edge"></parameter>
+        <parameter name="browser" value="chrome"></parameter>
         <classes>
-            <class name="TestRunnerTestng"/>
+            <class name="TestRunnerParallel"/>
         </classes>
     </test>
 </suite>

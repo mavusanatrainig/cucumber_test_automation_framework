@@ -1,28 +1,22 @@
-
 import com.automation.constants.Constants;
-import io.cucumber.testng.*;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.CucumberOptions;
 import lombok.extern.slf4j.Slf4j;
 import org.testng.ITestContext;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
 import org.testng.xml.XmlTest;
 
 import java.util.Map;
-import java.util.Objects;
-
 
 @CucumberOptions(
         plugin={ "json:target/cucumber.json","pretty",
                 "html:target/cucumber-reports/cucumber.html" },
         features="src/test/resources/features",
-        tags=""
+        tags="@login"
 )
 @Slf4j
-public class TestRunnerTestng extends AbstractTestNGCucumberTests {
-
-
+public class TestRunnerParallel extends AbstractTestNGCucumberTests {
 
     @BeforeClass(alwaysRun = true)
     @Override
@@ -35,5 +29,11 @@ public class TestRunnerTestng extends AbstractTestNGCucumberTests {
         params.forEach((k,v)->log.info(k +":" +v));
 
 
+    }
+
+    @DataProvider(parallel = true)
+    @Override
+    public Object[][] scenarios() {
+        return super.scenarios();
     }
 }

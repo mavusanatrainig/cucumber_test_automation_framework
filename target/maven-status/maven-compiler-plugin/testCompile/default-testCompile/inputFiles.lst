@@ -7,11 +7,16 @@ C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\java\com\
 C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\java\com\automation\driver\manager\FirefoxDriverManager.java
 C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\java\com\automation\driver\manager\SafariDriverManager.java
 C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\java\com\automation\listeners\TestListener.java
+C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\java\com\automation\pages\AccountOverviewPage.java
 C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\java\com\automation\pages\BasePage.java
+C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\java\com\automation\pages\FindTransactionsPage.java
 C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\java\com\automation\pages\LoginPage.java
 C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\java\com\automation\pages\RegisterPage.java
+C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\java\com\automation\stepdefinitions\AccountOverviewStepdefs.java
 C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\java\com\automation\stepdefinitions\LoginStepdefs.java
+C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\java\com\automation\stepdefinitions\MyStepdefs.java
 C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\java\com\automation\stepdefinitions\RegisterStepdefs.java
 C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\java\com\automation\utilities\ScreenShot.java
 C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\java\Hooks.java
+C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\java\TestRunnerParallel.java
 C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\java\TestRunnerTestng.java

@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite1" class="navigator-link ">
-                    <span>C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\resources\profiles\preprod.testng.xml</span>
+                    <span>C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\resources\profiles\uat.testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -103,12 +103,12 @@
                     <div class="method-list-content failed suite-Suite1">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite1" title="TestRunnerTestng" class="method navigator-link" hash-for-method="runScenario(&quot;User with valid credentials&quot;, &quot;Login&quot;)">runScenario("User with valid credentials", "Login")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite1" title="TestRunnerParallel" class="method navigator-link" hash-for-method="runScenario(&quot;User with valid credentials&quot;, &quot;Login&quot;)">runScenario("User with valid credentials", "Login")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite1" title="TestRunnerTestng" class="method navigator-link" hash-for-method="runScenario(&quot;User with invalid credentials&quot;, &quot;Login&quot;)">runScenario("User with invalid credentials", "Login")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite1" title="TestRunnerParallel" class="method navigator-link" hash-for-method="runScenario(&quot;User with invalid credentials&quot;, &quot;Login&quot;)">runScenario("User with invalid credentials", "Login")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite1 -->
@@ -126,7 +126,7 @@
           <div class="suite-Suite1-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">TestRunnerTestng</span>
+              <span class="class-name">TestRunnerParallel</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -136,12 +136,13 @@
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("User with valid credentials","Login")</span>
                   <div class="stack-trace">java.lang.AssertionError: 
-Expected: is &quot;https://parabank.parasoft.com/parabank/index.htm&quot;
-     but: was &quot;https://www.facebook.com/&quot;
+Expected: is &quot;ParaBank | Accounts Overview&quot;
+     but: was &quot;ParaBank | Error&quot;
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
-	at com.automation.stepdefinitions.LoginStepdefs.iHaveTheParabankWebsiteURL(LoginStepdefs.java:36)
-	at ✽.I have the parabank website URL(file:///C:/Users/Dell/IdeaProjects/cucumber_test_automation_framework/src/test/resources/features/login.feature:5)
+	at com.automation.pages.LoginPage.validateHomePage(LoginPage.java:61)
+	at com.automation.stepdefinitions.LoginStepdefs.theSystemDisplaysTheHomePage(LoginStepdefs.java:55)
+	at ✽.The system displays the home page(file:///C:/Users/Dell/IdeaProjects/cucumber_test_automation_framework/src/test/resources/features/1.%20login.feature:9)
 
 </div> <!-- stack-trace -->
                   <em>
@@ -154,14 +155,35 @@ Expected: is &quot;https://parabank.parasoft.com/parabank/index.htm&quot;
                   </a> <!-- runScenario("User with invalid credentials", "Login") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("User with invalid credentials","Login")</span>
-                  <div class="stack-trace">java.lang.AssertionError: 
-Expected: is &quot;https://parabank.parasoft.com/parabank/index.htm&quot;
-     but: was &quot;https://www.facebook.com/&quot;
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
-	at com.automation.stepdefinitions.LoginStepdefs.iHaveTheParabankWebsiteURL(LoginStepdefs.java:36)
-	at ✽.I have the parabank website URL(file:///C:/Users/Dell/IdeaProjects/cucumber_test_automation_framework/src/test/resources/features/login.feature:14)
-
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=128.0.6613.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2d2fc2e83b9c55fa69d4150b4a4a1ac1, clickElement {id=f.F17814E98DB8637C1104245491E3E478.d.C5EC04E111425A5C2F707AE375E5B8FE.e.7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64063}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64063/devtoo..., se:cdpVersion: 128.0.6613.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2d2fc2e83b9c55fa69d4150b4a4a1ac1)] -&gt; xpath: //*[@id=&apos;loginPanel&apos;]/form/div[3]/input]
+Session ID: 2d2fc2e83b9c55fa69d4150b4a4a1ac1
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$DvT85kBZ.click(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.click(Unknown Source)
+	at com.automation.pages.LoginPage.clickLogin(LoginPage.java:56)
+	at com.automation.stepdefinitions.LoginStepdefs.iClickTheLoginButton(LoginStepdefs.java:65)
+	at ✽.I click the login button(file:///C:/Users/Dell/IdeaProjects/cucumber_test_automation_framework/src/test/resources/features/1.%20login.feature:17)
+... Removed 13 stack frames
 </div> <!-- stack-trace -->
                   <em>
 (Runs Cucumber Scenarios)                  </em>
@@ -172,7 +194,7 @@ Expected: is &quot;https://parabank.parasoft.com/parabank/index.htm&quot;
         </div> <!-- panel Suite1 -->
         <div panel-name="test-xml-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\resources\profiles\preprod.testng.xml</span>
+            <span class="header-content">C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\src\test\resources\profiles\uat.testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -180,13 +202,13 @@ Expected: is &quot;https://parabank.parasoft.com/parabank/index.htm&quot;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Regression&quot; verbose=&quot;0&quot;&gt;
-    &lt;parameter name=&quot;environment&quot; value=&quot;preprod&quot;/&gt;
+    &lt;parameter name=&quot;environment&quot; value=&quot;uat&quot;/&gt;
     &lt;parameter name=&quot;password&quot; value=&quot;kamo&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
-    &lt;parameter name=&quot;url&quot; value=&quot;https://www.facebook.com&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;https://parabank.parasoft.com/parabank/index.htm&quot;/&gt;
     &lt;parameter name=&quot;username&quot; value=&quot;mavusana&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;TestRunnerTestng&quot;/&gt;
+      &lt;class name=&quot;TestRunnerParallel&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Regression --&gt;
 &lt;/suite&gt; &lt;!-- Suite1 --&gt;
@@ -237,17 +259,17 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
-data.setCell(0, 2, 'TestRunnerTestng')
-data.setCell(0, 3, 11712);
+data.setCell(0, 2, 'TestRunnerParallel')
+data.setCell(0, 3, 17433);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
-data.setCell(1, 2, 'TestRunnerTestng')
-data.setCell(1, 3, 9081);
+data.setCell(1, 2, 'TestRunnerParallel')
+data.setCell(1, 3, 17433);
 window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 34 seconds</span>
               <div id="times-div-Suite1">
               </div> <!-- times-div-Suite1 -->
             </div> <!-- times-div -->
@@ -273,26 +295,26 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">TestRunnerTestng</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">TestRunnerParallel</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@7ed49a7f)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@2575f671)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("User with valid credentials", "Login")</span>
-                <span class="method-start">1074 ms</span>
+                <span class="method-start">1236 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("User with invalid credentials", "Login")</span>
-                <span class="method-start">12795 ms</span>
+                <span class="method-start">1236 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">21880 ms</span>
+                <span class="method-start">18682 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

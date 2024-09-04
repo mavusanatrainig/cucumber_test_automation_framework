@@ -1,3 +1,4 @@
+@find @smoke @regression
 Feature: Find Transactions on Parabank
 
   Background:

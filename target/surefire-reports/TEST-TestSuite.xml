@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="22.825" tests="2" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="19.922" tests="2" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\Dell\AppData\Local\Temp\surefire14798266550552698757\surefirebooter-20240829200204889_3.jar C:\Users\Dell\AppData\Local\Temp\surefire14798266550552698757 2024-08-29T20-02-04_607-jvmRun1 surefire-20240829200204889_1tmp surefire_0-20240829200204889_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Dell\AppData\Local\Temp\surefire8040977337181183692\surefirebooter-20240903200501180_3.jar C:\Users\Dell\AppData\Local\Temp\surefire8040977337181183692 2024-09-03T20-05-00_846-jvmRun1 surefire-20240903200501180_1tmp surefire_0-20240903200501180_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\target\test-classes;C:\Users\Dell\IdeaProjects\cucumber_test_automation_framework\target\classes;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-java\4.12.1\selenium-java-4.12.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-api\4.12.1\selenium-api-4.12.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.12.1\selenium-chrome-driver-4.12.1.jar;C:\Users\Dell\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Dell\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\Dell\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Dell\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Dell\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Dell\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Dell\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Dell\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.12.1\selenium-chromium-driver-4.12.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-json\4.12.1\selenium-json-4.12.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.12.1\selenium-manager-4.12.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.12.1\selenium-devtools-v114-4.12.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v115\4.12.1\selenium-devtools-v115-4.12.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v116\4.12.1\selenium-devtools-v116-4.12.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.12.1\selenium-devtools-v85-4.12.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.12.1\selenium-edge-driver-4.12.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.12.1\selenium-firefox-driver-4.12.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-http\4.12.1\selenium-http-4.12.1.jar;C:\Users\Dell\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.12.1\selenium-ie-driver-4.12.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.12.1\selenium-remote-driver-4.12.1.jar;C:\Users\Dell\.m2\repository\io\netty\netty-buffer\4.1.96.Final\netty-buffer-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-codec-http\4.1.96.Final\netty-codec-http-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-codec\4.1.96.Final\netty-codec-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-handler\4.1.96.Final\netty-handler-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-common\4.1.96.Final\netty-common-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.96.Final\netty-transport-classes-epoll-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.96.Final\netty-transport-classes-kqueue-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport\4.1.96.Final\netty-transport-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-resolver\4.1.96.Final\netty-resolver-4.1.96.Final.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\Dell\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Dell\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\Dell\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Dell\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Dell\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Dell\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Dell\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Dell\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Dell\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-os\4.12.1\selenium-os-4.12.1.jar;C:\Users\Dell\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.12.1\selenium-safari-driver-4.12.1.jar;C:\Users\Dell\.m2\repository\org\seleniumhq\selenium\selenium-support\4.12.1\selenium-support-4.12.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-java\7.18.1\cucumber-java-7.18.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-core\7.18.1\cucumber-core-7.18.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-gherkin\7.18.1\cucumber-gherkin-7.18.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.1\cucumber-gherkin-messages-7.18.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\datatable\7.18.1\datatable-7.18.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-plugin\7.18.1\cucumber-plugin-7.18.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\docstring\7.18.1\docstring-7.18.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\html-formatter\21.4.1\html-formatter-21.4.1.jar;C:\Users\Dell\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\Dell\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Dell\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-picocontainer\7.18.1\cucumber-picocontainer-7.18.1.jar;C:\Users\Dell\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\Dell\.m2\repository\io\cucumber\cucumber-testng\7.18.1\cucumber-testng-7.18.1.jar;C:\Users\Dell\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Dell\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Dell\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Dell\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Dell\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Dell\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Dell\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Dell\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Dell\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Dell\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Dell\.m2\repository\org\projectlombok\lombok\1.18.34\lombok-1.18.34.jar;C:\Users\Dell\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\Dell\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Dell\AppData\Local\Temp\surefire14798266550552698757\surefirebooter-20240829200204889_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Dell\AppData\Local\Temp\surefire8040977337181183692\surefirebooter-20240903200501180_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.11+7-LTS-207"/>
@@ -56,71 +56,239 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="runScenario[&quot;User with valid credentials&quot;, &quot;Login&quot;](1)" classname="TestRunnerTestng" time="11.713">
-    <failure message="&#10;Expected: is &quot;https://parabank.parasoft.com/parabank/index.htm&quot;&#10;     but: was &quot;https://www.facebook.com/&quot;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+  <testcase name="runScenario[&quot;User with valid credentials&quot;, &quot;Login&quot;](2)" classname="TestRunnerParallel" time="17.432">
+    <failure message="&#10;Expected: is &quot;ParaBank | Accounts Overview&quot;&#10;     but: was &quot;ParaBank | Error&quot;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 
-Expected: is "https://parabank.parasoft.com/parabank/index.htm"
-     but: was "https://www.facebook.com/"
+Expected: is "ParaBank | Accounts Overview"
+     but: was "ParaBank | Error"
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
-	at com.automation.stepdefinitions.LoginStepdefs.iHaveTheParabankWebsiteURL(LoginStepdefs.java:36)
-	at ✽.I have the parabank website URL(file:///C:/Users/Dell/IdeaProjects/cucumber_test_automation_framework/src/test/resources/features/login.feature:5)
+	at com.automation.pages.LoginPage.validateHomePage(LoginPage.java:61)
+	at com.automation.stepdefinitions.LoginStepdefs.theSystemDisplaysTheHomePage(LoginStepdefs.java:55)
+	at ✽.The system displays the home page(file:///C:/Users/Dell/IdeaProjects/cucumber_test_automation_framework/src/test/resources/features/1.%20login.feature:9)
 ]]></failure>
-    <system-out><![CDATA[[ INFO]  TestRunnerTestng lambda$setUpClass$0 main 2024-08-29 20:02:07,320(TestRunnerTestng.java:35) - environment:preprod
-[ INFO]  TestRunnerTestng lambda$setUpClass$0 main 2024-08-29 20:02:07,325(TestRunnerTestng.java:35) - password:kamo
-[ INFO]  TestRunnerTestng lambda$setUpClass$0 main 2024-08-29 20:02:07,325(TestRunnerTestng.java:35) - url:https://www.facebook.com
-[ INFO]  TestRunnerTestng lambda$setUpClass$0 main 2024-08-29 20:02:07,326(TestRunnerTestng.java:35) - browser:firefox
-[ INFO]  TestRunnerTestng lambda$setUpClass$0 main 2024-08-29 20:02:07,326(TestRunnerTestng.java:35) - username:mavusana
+    <system-out><![CDATA[[ INFO]  TestRunnerParallel lambda$setUpClass$0 main 2024-09-03 20:05:04,089(TestRunnerParallel.java:29) - environment:uat
+[ INFO]  TestRunnerParallel lambda$setUpClass$0 main 2024-09-03 20:05:04,095(TestRunnerParallel.java:29) - password:kamo
+[ INFO]  TestRunnerParallel lambda$setUpClass$0 main 2024-09-03 20:05:04,096(TestRunnerParallel.java:29) - url:https://parabank.parasoft.com/parabank/index.htm
+[ INFO]  TestRunnerParallel lambda$setUpClass$0 main 2024-09-03 20:05:04,096(TestRunnerParallel.java:29) - browser:chrome
+[ INFO]  TestRunnerParallel lambda$setUpClass$0 main 2024-09-03 20:05:04,096(TestRunnerParallel.java:29) - username:mavusana
 
 @login @smoke @regression
-Scenario: User with valid credentials                   &amp#27;[90m# src/test/resources/features/login.feature:4&amp#27;[0m
-[ INFO]  Hooks setup main 2024-08-29 20:02:07,494(Hooks.java:23) - Initialize web driver
-  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI have the parabank website URL&amp#27;[0m                 &amp#27;[90m# com.automation.stepdefinitions.LoginStepdefs.iHaveTheParabankWebsiteURL()&amp#27;[0m
+Scenario: User with valid credentials                   &amp#27;[90m# src/test/resources/features/1. login.feature:4&amp#27;[0m
+
+@login @smoke @regression
+Scenario: User with invalid credentials          &amp#27;[90m# src/test/resources/features/1. login.feature:13&amp#27;[0m
+[ INFO]  Hooks setup TestNG-PoolService-2 2024-09-03 20:05:04,628(Hooks.java:32) - Initialize web driver
+[ INFO]  Hooks setup TestNG-PoolService-1 2024-09-03 20:05:04,628(Hooks.java:32) - Initialize web driver
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have the parabank website URL&amp#27;[0m                 &amp#27;[90m# com.automation.stepdefinitions.LoginStepdefs.iHaveTheParabankWebsiteURL()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have the parabank website URL&amp#27;[0m          &amp#27;[90m# com.automation.stepdefinitions.LoginStepdefs.iHaveTheParabankWebsiteURL()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter the username as &amp#27;[0m&amp#27;[32m&amp#27;[1m"mavusana"&amp#27;[0m               &amp#27;[90m# com.automation.stepdefinitions.LoginStepdefs.iEnterTheUsernameAs(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter the username as &amp#27;[0m&amp#27;[32m&amp#27;[1m"mavusana"&amp#27;[0m        &amp#27;[90m# com.automation.stepdefinitions.LoginStepdefs.iEnterTheUsernameAs(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter the password as &amp#27;[0m&amp#27;[32m&amp#27;[1m"kamo"&amp#27;[0m                    &amp#27;[90m# com.automation.stepdefinitions.LoginStepdefs.iEnterThePasswordAs(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter the password as &amp#27;[0m&amp#27;[32m&amp#27;[1m"tele"&amp#27;[0m             &amp#27;[90m# com.automation.stepdefinitions.LoginStepdefs.iEnterThePasswordAs(java.lang.String)&amp#27;[0m
+[ INFO]  com.automation.listeners.TestListener beforeClick TestNG-PoolService-1 2024-09-03 20:05:18,765(TestListener.java:127) - Before Clicking the element with tag -input
+[ INFO]  com.automation.listeners.TestListener beforeClick TestNG-PoolService-2 2024-09-03 20:05:18,774(TestListener.java:127) - Before Clicking the element with tag -input
+[ERROR]  com.automation.listeners.TestListener onError TestNG-PoolService-2 2024-09-03 20:05:19,707(TestListener.java:27) - Error found org.openqa.selenium.remote.RemoteWebElement click null
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mI click the login button&amp#27;[0m                   &amp#27;[90m# com.automation.stepdefinitions.LoginStepdefs.iClickTheLoginButton()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=128.0.6613.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2d2fc2e83b9c55fa69d4150b4a4a1ac1, clickElement {id=f.F17814E98DB8637C1104245491E3E478.d.C5EC04E111425A5C2F707AE375E5B8FE.e.7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64063}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64063/devtoo..., se:cdpVersion: 128.0.6613.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2d2fc2e83b9c55fa69d4150b4a4a1ac1)] -> xpath: //*[@id='loginPanel']/form/div[3]/input]
+Session ID: 2d2fc2e83b9c55fa69d4150b4a4a1ac1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$DvT85kBZ.click(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.click(Unknown Source)
+	at com.automation.pages.LoginPage.clickLogin(LoginPage.java:56)
+	at com.automation.stepdefinitions.LoginStepdefs.iClickTheLoginButton(LoginStepdefs.java:65)
+	at âœ½.I click the login button(file:///C:/Users/Dell/IdeaProjects/cucumber_test_automation_framework/src/test/resources/features/1.%20login.feature:17)
+&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThe system displays the error page&amp#27;[0m        &amp#27;[90m# com.automation.stepdefinitions.LoginStepdefs.verifyErrorPage()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe system displays error message &amp#27;[0m&amp#27;[36m&amp#27;[1m"Error!"&amp#27;[0m &amp#27;[90m# com.automation.stepdefinitions.LoginStepdefs.ValidateErrorMessage(java.lang.String)&amp#27;[0m
+[ INFO]  Hooks closure TestNG-PoolService-2 2024-09-03 20:05:19,725(Hooks.java:60) - Close driver successfully
+
+    Embedding screenshot [image/png 189274 bytes]
+
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click the login button&amp#27;[0m                          &amp#27;[90m# com.automation.stepdefinitions.LoginStepdefs.iClickTheLoginButton()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mThe system displays the home page&amp#27;[0m                &amp#27;[90m# com.automation.stepdefinitions.LoginStepdefs.theSystemDisplaysTheHomePage()&amp#27;[0m
       &amp#27;[31mjava.lang.AssertionError: 
-Expected: is "https://parabank.parasoft.com/parabank/index.htm"
-     but: was "https://www.facebook.com/"
+Expected: is "ParaBank | Accounts Overview"
+     but: was "ParaBank | Error"
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
-	at com.automation.stepdefinitions.LoginStepdefs.iHaveTheParabankWebsiteURL(LoginStepdefs.java:36)
-	at âœ½.I have the parabank website URL(file:///C:/Users/Dell/IdeaProjects/cucumber_test_automation_framework/src/test/resources/features/login.feature:5)
+	at com.automation.pages.LoginPage.validateHomePage(LoginPage.java:61)
+	at com.automation.stepdefinitions.LoginStepdefs.theSystemDisplaysTheHomePage(LoginStepdefs.java:55)
+	at âœ½.The system displays the home page(file:///C:/Users/Dell/IdeaProjects/cucumber_test_automation_framework/src/test/resources/features/1.%20login.feature:9)
 &amp#27;[0m
-  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter the username as &amp#27;[0m&amp#27;[36m&amp#27;[1m"mavusana"&amp#27;[0m               &amp#27;[90m# com.automation.stepdefinitions.LoginStepdefs.iEnterTheUsernameAs(java.lang.String)&amp#27;[0m
-  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI enter the password as &amp#27;[0m&amp#27;[36m&amp#27;[1m"kamo"&amp#27;[0m                    &amp#27;[90m# com.automation.stepdefinitions.LoginStepdefs.iEnterThePasswordAs(java.lang.String)&amp#27;[0m
-  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click the login button&amp#27;[0m                          &amp#27;[90m# com.automation.stepdefinitions.LoginStepdefs.iClickTheLoginButton()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThe system displays the home page&amp#27;[0m                &amp#27;[90m# com.automation.stepdefinitions.LoginStepdefs.theSystemDisplaysTheHomePage()&amp#27;[0m
   &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe system displays a message &amp#27;[0m&amp#27;[36m&amp#27;[1m"Welcome Vusi Pelo"&amp#27;[0m &amp#27;[90m# com.automation.stepdefinitions.LoginStepdefs.theSystemDisplaysAMessage(java.lang.String)&amp#27;[0m
-[ INFO]  Hooks closure main 2024-08-29 20:02:17,296(Hooks.java:45) - Close driver successfully
+[ INFO]  Hooks closure TestNG-PoolService-1 2024-09-03 20:05:20,234(Hooks.java:60) - Close driver successfully
 ]]></system-out>
-  </testcase>
-  <testcase name="runScenario[&quot;User with invalid credentials&quot;, &quot;Login&quot;](2)" classname="TestRunnerTestng" time="9.08">
-    <failure message="&#10;Expected: is &quot;https://parabank.parasoft.com/parabank/index.htm&quot;&#10;     but: was &quot;https://www.facebook.com/&quot;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+    <system-err><![CDATA[Sep 03, 2024 8:05:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 03, 2024 8:05:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.119. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Sep 03, 2024 8:05:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 128
+Sep 03, 2024 8:05:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 128.0.6613.119. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.12.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Sep 03, 2024 8:05:19 PM org.openqa.selenium.support.events.EventFiringDecorator callListenerMethod
+WARNING: null
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.events.EventFiringDecorator.callListenerMethod(EventFiringDecorator.java:328)
+	at org.openqa.selenium.support.events.EventFiringDecorator.fireAfterEvents(EventFiringDecorator.java:267)
+	at org.openqa.selenium.support.events.EventFiringDecorator.lambda$afterCall$1(EventFiringDecorator.java:188)
+	at java.base/java.util.Arrays$ArrayList.forEach(Arrays.java:4204)
+	at org.openqa.selenium.support.events.EventFiringDecorator.afterCall(EventFiringDecorator.java:188)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.afterCall(DefaultDecorated.java:53)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:322)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$GesuLAg6.click(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.click(Unknown Source)
+	at com.automation.pages.LoginPage.clickLogin(LoginPage.java:56)
+	at com.automation.stepdefinitions.LoginStepdefs.iClickTheLoginButton(LoginStepdefs.java:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=128.0.6613.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2d2fc2e83b9c55fa69d4150b4a4a1ac1, getElementTagName {id=f.F17814E98DB8637C1104245491E3E478.d.C5EC04E111425A5C2F707AE375E5B8FE.e.7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64063}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64063/devtoo..., se:cdpVersion: 128.0.6613.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2d2fc2e83b9c55fa69d4150b4a4a1ac1)] -> xpath: //*[@id='loginPanel']/form/div[3]/input]
+Session ID: 2d2fc2e83b9c55fa69d4150b4a4a1ac1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.getTagName(RemoteWebElement.java:135)
+	at com.automation.listeners.TestListener.afterClick(TestListener.java:131)
+	... 54 more
 
-Expected: is "https://parabank.parasoft.com/parabank/index.htm"
-     but: was "https://www.facebook.com/"
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
-	at com.automation.stepdefinitions.LoginStepdefs.iHaveTheParabankWebsiteURL(LoginStepdefs.java:36)
-	at ✽.I have the parabank website URL(file:///C:/Users/Dell/IdeaProjects/cucumber_test_automation_framework/src/test/resources/features/login.feature:14)
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User with invalid credentials&quot;, &quot;Login&quot;](2)" classname="TestRunnerParallel" time="17.436">
+    <failure message="stale element reference: stale element not found&#10;  (Session info: chrome=128.0.6613.119)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception&#10;Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [2d2fc2e83b9c55fa69d4150b4a4a1ac1, clickElement {id=f.F17814E98DB8637C1104245491E3E478.d.C5EC04E111425A5C2F707AE375E5B8FE.e.7}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64063}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64063/devtoo..., se:cdpVersion: 128.0.6613.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (2d2fc2e83b9c55fa69d4150b4a4a1ac1)] -&gt; xpath: //*[@id=&apos;loginPanel&apos;]/form/div[3]/input]&#10;Session ID: 2d2fc2e83b9c55fa69d4150b4a4a1ac1" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: stale element not found
+  (Session info: chrome=128.0.6613.119)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2d2fc2e83b9c55fa69d4150b4a4a1ac1, clickElement {id=f.F17814E98DB8637C1104245491E3E478.d.C5EC04E111425A5C2F707AE375E5B8FE.e.7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.119, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64063}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64063/devtoo..., se:cdpVersion: 128.0.6613.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2d2fc2e83b9c55fa69d4150b4a4a1ac1)] -> xpath: //*[@id='loginPanel']/form/div[3]/input]
+Session ID: 2d2fc2e83b9c55fa69d4150b4a4a1ac1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$DvT85kBZ.click(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy50.click(Unknown Source)
+	at com.automation.pages.LoginPage.clickLogin(LoginPage.java:56)
+	at com.automation.stepdefinitions.LoginStepdefs.iClickTheLoginButton(LoginStepdefs.java:65)
+	at ✽.I click the login button(file:///C:/Users/Dell/IdeaProjects/cucumber_test_automation_framework/src/test/resources/features/1.%20login.feature:17)
 ]]></failure>
-    <system-out><![CDATA[
-@login @smoke @regression
-Scenario: User with invalid credentials                 &amp#27;[90m# src/test/resources/features/login.feature:13&amp#27;[0m
-[ INFO]  Hooks setup main 2024-08-29 20:02:19,074(Hooks.java:23) - Initialize web driver
-  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI have the parabank website URL&amp#27;[0m                 &amp#27;[90m# com.automation.stepdefinitions.LoginStepdefs.iHaveTheParabankWebsiteURL()&amp#27;[0m
-      &amp#27;[31mjava.lang.AssertionError: 
-Expected: is "https://parabank.parasoft.com/parabank/index.htm"
-     but: was "https://www.facebook.com/"
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
-	at com.automation.stepdefinitions.LoginStepdefs.iHaveTheParabankWebsiteURL(LoginStepdefs.java:36)
-	at âœ½.I have the parabank website URL(file:///C:/Users/Dell/IdeaProjects/cucumber_test_automation_framework/src/test/resources/features/login.feature:14)
-&amp#27;[0m
-  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter the username as &amp#27;[0m&amp#27;[36m&amp#27;[1m"mavusana"&amp#27;[0m               &amp#27;[90m# com.automation.stepdefinitions.LoginStepdefs.iEnterTheUsernameAs(java.lang.String)&amp#27;[0m
-  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI enter the password as &amp#27;[0m&amp#27;[36m&amp#27;[1m"tele"&amp#27;[0m                    &amp#27;[90m# com.automation.stepdefinitions.LoginStepdefs.iEnterThePasswordAs(java.lang.String)&amp#27;[0m
-  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click the login button&amp#27;[0m                          &amp#27;[90m# com.automation.stepdefinitions.LoginStepdefs.iClickTheLoginButton()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThe system displays the home page&amp#27;[0m                &amp#27;[90m# com.automation.stepdefinitions.LoginStepdefs.theSystemDisplaysTheHomePage()&amp#27;[0m
-  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mthe system displays a message &amp#27;[0m&amp#27;[36m&amp#27;[1m"welcome Vusi Pelo"&amp#27;[0m &amp#27;[90m# com.automation.stepdefinitions.LoginStepdefs.theSystemDisplaysAMessage(java.lang.String)&amp#27;[0m
-[ INFO]  Hooks closure main 2024-08-29 20:02:26,188(Hooks.java:45) - Close driver successfully
-]]></system-out>
   </testcase>
 </testsuite>
