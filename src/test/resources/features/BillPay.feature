@@ -1,4 +1,4 @@
-
+@billpay @regression
   Feature: Pay Bill
     Scenario Outline: User logged in with valid user credentials
       Given I am on the parabank account service page

@@ -11,7 +11,7 @@ import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 
 import static com.automation.constants.Constants.driver;
-import static org.junit.Assert.assertTrue;
+
 
 public class AccountOverviewStepdefs {
 

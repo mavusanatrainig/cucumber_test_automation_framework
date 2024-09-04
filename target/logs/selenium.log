@@ -1,9 +1,12 @@
-[ INFO]  TestRunnerTestng lambda$setUpClass$0 main 2024-08-29 20:02:07,320(TestRunnerTestng.java:35) - environment:preprod
-[ INFO]  TestRunnerTestng lambda$setUpClass$0 main 2024-08-29 20:02:07,325(TestRunnerTestng.java:35) - password:kamo
-[ INFO]  TestRunnerTestng lambda$setUpClass$0 main 2024-08-29 20:02:07,325(TestRunnerTestng.java:35) - url:https://www.facebook.com
-[ INFO]  TestRunnerTestng lambda$setUpClass$0 main 2024-08-29 20:02:07,326(TestRunnerTestng.java:35) - browser:firefox
-[ INFO]  TestRunnerTestng lambda$setUpClass$0 main 2024-08-29 20:02:07,326(TestRunnerTestng.java:35) - username:mavusana
-[ INFO]  Hooks setup main 2024-08-29 20:02:07,494(Hooks.java:23) - Initialize web driver
-[ INFO]  Hooks closure main 2024-08-29 20:02:17,296(Hooks.java:45) - Close driver successfully
-[ INFO]  Hooks setup main 2024-08-29 20:02:19,074(Hooks.java:23) - Initialize web driver
-[ INFO]  Hooks closure main 2024-08-29 20:02:26,188(Hooks.java:45) - Close driver successfully
+[ INFO]  TestRunnerParallel lambda$setUpClass$0 main 2024-09-03 20:05:04,089(TestRunnerParallel.java:29) - environment:uat
+[ INFO]  TestRunnerParallel lambda$setUpClass$0 main 2024-09-03 20:05:04,095(TestRunnerParallel.java:29) - password:kamo
+[ INFO]  TestRunnerParallel lambda$setUpClass$0 main 2024-09-03 20:05:04,096(TestRunnerParallel.java:29) - url:https://parabank.parasoft.com/parabank/index.htm
+[ INFO]  TestRunnerParallel lambda$setUpClass$0 main 2024-09-03 20:05:04,096(TestRunnerParallel.java:29) - browser:chrome
+[ INFO]  TestRunnerParallel lambda$setUpClass$0 main 2024-09-03 20:05:04,096(TestRunnerParallel.java:29) - username:mavusana
+[ INFO]  Hooks setup TestNG-PoolService-2 2024-09-03 20:05:04,628(Hooks.java:32) - Initialize web driver
+[ INFO]  Hooks setup TestNG-PoolService-1 2024-09-03 20:05:04,628(Hooks.java:32) - Initialize web driver
+[ INFO]  com.automation.listeners.TestListener beforeClick TestNG-PoolService-1 2024-09-03 20:05:18,765(TestListener.java:127) - Before Clicking the element with tag -input
+[ INFO]  com.automation.listeners.TestListener beforeClick TestNG-PoolService-2 2024-09-03 20:05:18,774(TestListener.java:127) - Before Clicking the element with tag -input
+[ERROR]  com.automation.listeners.TestListener onError TestNG-PoolService-2 2024-09-03 20:05:19,707(TestListener.java:27) - Error found org.openqa.selenium.remote.RemoteWebElement click null
+[ INFO]  Hooks closure TestNG-PoolService-2 2024-09-03 20:05:19,725(Hooks.java:60) - Close driver successfully
+[ INFO]  Hooks closure TestNG-PoolService-1 2024-09-03 20:05:20,234(Hooks.java:60) - Close driver successfully
