@@ -101,7 +101,7 @@ public class RegisterStepdefs {
 
     @And("I enter name as {string}")
     public void iEnterNameAs(String arg0) {
-        if(arg0.equals("p-fname ")){
+        if(arg0.equals("p-fname")){
             registerPage.enterFirstName(faker.name().firstName());
 
         }else {
