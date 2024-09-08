@@ -1,12 +1,88 @@
-[ INFO]  TestRunnerParallel lambda$setUpClass$0 main 2024-09-03 20:05:04,089(TestRunnerParallel.java:29) - environment:uat
-[ INFO]  TestRunnerParallel lambda$setUpClass$0 main 2024-09-03 20:05:04,095(TestRunnerParallel.java:29) - password:kamo
-[ INFO]  TestRunnerParallel lambda$setUpClass$0 main 2024-09-03 20:05:04,096(TestRunnerParallel.java:29) - url:https://parabank.parasoft.com/parabank/index.htm
-[ INFO]  TestRunnerParallel lambda$setUpClass$0 main 2024-09-03 20:05:04,096(TestRunnerParallel.java:29) - browser:chrome
-[ INFO]  TestRunnerParallel lambda$setUpClass$0 main 2024-09-03 20:05:04,096(TestRunnerParallel.java:29) - username:mavusana
-[ INFO]  Hooks setup TestNG-PoolService-2 2024-09-03 20:05:04,628(Hooks.java:32) - Initialize web driver
-[ INFO]  Hooks setup TestNG-PoolService-1 2024-09-03 20:05:04,628(Hooks.java:32) - Initialize web driver
-[ INFO]  com.automation.listeners.TestListener beforeClick TestNG-PoolService-1 2024-09-03 20:05:18,765(TestListener.java:127) - Before Clicking the element with tag -input
-[ INFO]  com.automation.listeners.TestListener beforeClick TestNG-PoolService-2 2024-09-03 20:05:18,774(TestListener.java:127) - Before Clicking the element with tag -input
-[ERROR]  com.automation.listeners.TestListener onError TestNG-PoolService-2 2024-09-03 20:05:19,707(TestListener.java:27) - Error found org.openqa.selenium.remote.RemoteWebElement click null
-[ INFO]  Hooks closure TestNG-PoolService-2 2024-09-03 20:05:19,725(Hooks.java:60) - Close driver successfully
-[ INFO]  Hooks closure TestNG-PoolService-1 2024-09-03 20:05:20,234(Hooks.java:60) - Close driver successfully
+[ INFO]  TestRunnerParallel lambda$setUpClass$0 main 2024-09-05 23:05:04,789(TestRunnerParallel.java:30) - environment:uat
+[ INFO]  TestRunnerParallel lambda$setUpClass$0 main 2024-09-05 23:05:04,795(TestRunnerParallel.java:30) - password:kamo
+[ INFO]  TestRunnerParallel lambda$setUpClass$0 main 2024-09-05 23:05:04,795(TestRunnerParallel.java:30) - url:https://parabank.parasoft.com/parabank/index.htm
+[ INFO]  TestRunnerParallel lambda$setUpClass$0 main 2024-09-05 23:05:04,795(TestRunnerParallel.java:30) - browser:chrome
+[ INFO]  TestRunnerParallel lambda$setUpClass$0 main 2024-09-05 23:05:04,796(TestRunnerParallel.java:30) - username:mavusana
+[ INFO]  Hooks setup TestNG-PoolService-1 2024-09-05 23:05:05,744(Hooks.java:36) - Initialize web driver
+[ INFO]  com.automation.listeners.TestListener beforeClick TestNG-PoolService-1 2024-09-05 23:05:23,220(TestListener.java:127) - Before Clicking the element with tag -input
+[ INFO]  Hooks closure TestNG-PoolService-1 2024-09-05 23:05:24,324(Hooks.java:69) - Close driver successfully
+[ WARN]  org.asynchttpclient.netty.handler.WebSocketHandler handleException AsyncHttpClient-1-4 2024-09-05 23:05:24,403(WebSocketHandler.java:142) - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:254)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+[ INFO]  TestRunnerParallel lambda$setUpClass$0 main 2024-09-05 23:06:48,363(TestRunnerParallel.java:30) - environment:uat
+[ INFO]  TestRunnerParallel lambda$setUpClass$0 main 2024-09-05 23:06:48,370(TestRunnerParallel.java:30) - password:kamo
+[ INFO]  TestRunnerParallel lambda$setUpClass$0 main 2024-09-05 23:06:48,371(TestRunnerParallel.java:30) - url:https://parabank.parasoft.com/parabank/index.htm
+[ INFO]  TestRunnerParallel lambda$setUpClass$0 main 2024-09-05 23:06:48,371(TestRunnerParallel.java:30) - browser:chrome
+[ INFO]  TestRunnerParallel lambda$setUpClass$0 main 2024-09-05 23:06:48,371(TestRunnerParallel.java:30) - username:mavusana
+[ INFO]  Hooks setup TestNG-PoolService-1 2024-09-05 23:06:49,941(Hooks.java:36) - Initialize web driver
+[ INFO]  Hooks setup TestNG-PoolService-4 2024-09-05 23:06:50,049(Hooks.java:36) - Initialize web driver
+[ INFO]  Hooks setup TestNG-PoolService-10 2024-09-05 23:06:50,051(Hooks.java:36) - Initialize web driver
+[ INFO]  Hooks setup TestNG-PoolService-9 2024-09-05 23:06:50,057(Hooks.java:36) - Initialize web driver
+[ INFO]  Hooks setup TestNG-PoolService-8 2024-09-05 23:06:50,065(Hooks.java:36) - Initialize web driver
+[ INFO]  Hooks setup TestNG-PoolService-7 2024-09-05 23:06:50,065(Hooks.java:36) - Initialize web driver
+[ INFO]  Hooks setup TestNG-PoolService-6 2024-09-05 23:06:50,071(Hooks.java:36) - Initialize web driver
+[ INFO]  Hooks setup TestNG-PoolService-3 2024-09-05 23:06:50,072(Hooks.java:36) - Initialize web driver
+[ INFO]  Hooks setup TestNG-PoolService-2 2024-09-05 23:06:50,077(Hooks.java:36) - Initialize web driver
+[ INFO]  Hooks setup TestNG-PoolService-5 2024-09-05 23:06:50,081(Hooks.java:36) - Initialize web driver
+[ INFO]  Hooks closure TestNG-PoolService-9 2024-09-05 23:07:02,102(Hooks.java:69) - Close driver successfully
+[ INFO]  Hooks closure TestNG-PoolService-2 2024-09-05 23:07:02,709(Hooks.java:69) - Close driver successfully
+[ INFO]  Hooks closure TestNG-PoolService-3 2024-09-05 23:07:05,255(Hooks.java:69) - Close driver successfully
+[ INFO]  Hooks closure TestNG-PoolService-4 2024-09-05 23:07:13,460(Hooks.java:69) - Close driver successfully
+[ERROR]  com.automation.listeners.TestListener onError TestNG-PoolService-9 2024-09-05 23:07:19,202(TestListener.java:27) - Error found org.openqa.selenium.chrome.ChromeDriver quit null
+[ERROR]  com.automation.listeners.TestListener onError TestNG-PoolService-2 2024-09-05 23:07:20,830(TestListener.java:27) - Error found org.openqa.selenium.chrome.ChromeDriver quit null
+[ERROR]  com.automation.listeners.TestListener onError TestNG-PoolService-3 2024-09-05 23:07:20,830(TestListener.java:27) - Error found org.openqa.selenium.chrome.ChromeDriver quit null
+[ INFO]  Hooks setup TestNG-PoolService-9 2024-09-05 23:07:21,558(Hooks.java:36) - Initialize web driver
+[ INFO]  Hooks closure TestNG-PoolService-8 2024-09-05 23:07:27,035(Hooks.java:69) - Close driver successfully
+[ INFO]  Hooks setup TestNG-PoolService-2 2024-09-05 23:07:27,201(Hooks.java:36) - Initialize web driver
+[ INFO]  Hooks setup TestNG-PoolService-4 2024-09-05 23:07:27,202(Hooks.java:36) - Initialize web driver
+[ INFO]  Hooks setup TestNG-PoolService-3 2024-09-05 23:07:27,218(Hooks.java:36) - Initialize web driver
+[ INFO]  Hooks setup TestNG-PoolService-8 2024-09-05 23:07:27,246(Hooks.java:36) - Initialize web driver
+[ INFO]  Hooks closure TestNG-PoolService-6 2024-09-05 23:07:30,114(Hooks.java:69) - Close driver successfully
+[ INFO]  Hooks closure TestNG-PoolService-7 2024-09-05 23:07:30,121(Hooks.java:69) - Close driver successfully
+[ INFO]  Hooks setup TestNG-PoolService-6 2024-09-05 23:07:32,070(Hooks.java:36) - Initialize web driver
+[ INFO]  Hooks setup TestNG-PoolService-7 2024-09-05 23:07:32,381(Hooks.java:36) - Initialize web driver
+[ INFO]  Hooks closure TestNG-PoolService-10 2024-09-05 23:07:33,887(Hooks.java:69) - Close driver successfully
+[ INFO]  Hooks closure TestNG-PoolService-5 2024-09-05 23:07:38,197(Hooks.java:69) - Close driver successfully
+[ INFO]  Hooks setup TestNG-PoolService-5 2024-09-05 23:07:40,997(Hooks.java:36) - Initialize web driver
+[ERROR]  com.automation.listeners.TestListener onError TestNG-PoolService-1 2024-09-05 23:07:44,030(TestListener.java:27) - Error found org.openqa.selenium.chrome.ChromeDriver findElement null
+[ INFO]  Hooks closure TestNG-PoolService-1 2024-09-05 23:07:44,042(Hooks.java:69) - Close driver successfully
+[ INFO]  Hooks setup TestNG-PoolService-1 2024-09-05 23:07:44,679(Hooks.java:36) - Initialize web driver
+[ INFO]  Hooks setup TestNG-PoolService-10 2024-09-05 23:07:44,699(Hooks.java:36) - Initialize web driver
+[ INFO]  Hooks closure TestNG-PoolService-9 2024-09-05 23:07:48,629(Hooks.java:69) - Close driver successfully
+[ INFO]  Hooks closure TestNG-PoolService-4 2024-09-05 23:07:50,519(Hooks.java:69) - Close driver successfully
+[ INFO]  Hooks closure TestNG-PoolService-8 2024-09-05 23:07:52,290(Hooks.java:69) - Close driver successfully
+[ INFO]  Hooks closure TestNG-PoolService-2 2024-09-05 23:07:54,197(Hooks.java:69) - Close driver successfully
+[ERROR]  com.automation.listeners.TestListener onError TestNG-PoolService-9 2024-09-05 23:07:57,767(TestListener.java:27) - Error found org.openqa.selenium.chrome.ChromeDriver quit null
+[ INFO]  Hooks setup TestNG-PoolService-2 2024-09-05 23:07:57,788(Hooks.java:36) - Initialize web driver
+[ INFO]  Hooks setup TestNG-PoolService-9 2024-09-05 23:07:57,796(Hooks.java:36) - Initialize web driver
+[ INFO]  Hooks setup TestNG-PoolService-8 2024-09-05 23:07:58,155(Hooks.java:36) - Initialize web driver
+[ INFO]  Hooks setup TestNG-PoolService-4 2024-09-05 23:07:58,453(Hooks.java:36) - Initialize web driver
+[ INFO]  Hooks closure TestNG-PoolService-3 2024-09-05 23:08:01,938(Hooks.java:69) - Close driver successfully
+[ INFO]  Hooks setup TestNG-PoolService-3 2024-09-05 23:08:02,933(Hooks.java:36) - Initialize web driver
+[ INFO]  Hooks closure TestNG-PoolService-6 2024-09-05 23:08:10,901(Hooks.java:69) - Close driver successfully
+[ INFO]  Hooks closure TestNG-PoolService-4 2024-09-05 23:08:12,994(Hooks.java:69) - Close driver successfully
+[ INFO]  Hooks closure TestNG-PoolService-1 2024-09-05 23:08:20,812(Hooks.java:69) - Close driver successfully
+[ INFO]  com.automation.listeners.TestListener beforeClick TestNG-PoolService-7 2024-09-05 23:08:23,770(TestListener.java:127) - Before Clicking the element with tag -input
+[ERROR]  com.automation.listeners.TestListener onError TestNG-PoolService-7 2024-09-05 23:08:27,910(TestListener.java:27) - Error found org.openqa.selenium.chrome.ChromeDriver getScreenshotAs null
+[ INFO]  Hooks closure TestNG-PoolService-7 2024-09-05 23:08:27,926(Hooks.java:69) - Close driver successfully
+[ERROR]  com.automation.listeners.TestListener onError TestNG-PoolService-4 2024-09-05 23:08:28,094(TestListener.java:27) - Error found org.openqa.selenium.chrome.ChromeDriver quit null
+[ INFO]  Hooks closure TestNG-PoolService-2 2024-09-05 23:08:28,561(Hooks.java:69) - Close driver successfully
+[ INFO]  Hooks closure TestNG-PoolService-5 2024-09-05 23:08:30,505(Hooks.java:69) - Close driver successfully
+[ INFO]  Hooks closure TestNG-PoolService-10 2024-09-05 23:08:37,997(Hooks.java:69) - Close driver successfully
+[ INFO]  Hooks closure TestNG-PoolService-9 2024-09-05 23:08:40,572(Hooks.java:69) - Close driver successfully
+[ INFO]  Hooks closure TestNG-PoolService-8 2024-09-05 23:08:45,678(Hooks.java:69) - Close driver successfully
+[ERROR]  com.automation.listeners.TestListener onError TestNG-PoolService-9 2024-09-05 23:08:56,606(TestListener.java:27) - Error found org.openqa.selenium.chrome.ChromeDriver quit null
+[ INFO]  Hooks closure TestNG-PoolService-3 2024-09-05 23:08:58,354(Hooks.java:69) - Close driver successfully

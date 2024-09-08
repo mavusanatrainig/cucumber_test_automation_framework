@@ -10,10 +10,11 @@ import org.testng.xml.XmlTest;
 import java.util.Map;
 
 @CucumberOptions(
-        plugin={ "json:target/cucumber.json","pretty",
-                "html:target/cucumber-reports/cucumber.html" },
+        plugin={ "pretty","json:target/cucumber.json",
+                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
         features="src/test/resources/features",
-        tags="@login"
+        tags=""
 )
 @Slf4j
 public class TestRunnerParallel extends AbstractTestNGCucumberTests {

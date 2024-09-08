@@ -1,4 +1,4 @@
-@register @smoke @regression
+@register @regression
 Feature: Register user
 
   Scenario Outline:
