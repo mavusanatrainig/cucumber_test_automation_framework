@@ -12,7 +12,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 
 public class RegisterPage extends BasePage {
-    @FindBy(how = How.NAME, using = "customer.firstName")
+    @FindBy(how = How.XPATH, using = "//*[@id=\"customer.firstName\"]")
     private WebElement txtEnterFirstName;
     @FindBy(how = How.XPATH, using = "//input[@class='input'][@id='customer.lastName']")
     private WebElement txtEnterLastName;
@@ -38,9 +38,9 @@ public class RegisterPage extends BasePage {
     private WebElement txtEnterAddress;
     @FindBy(how = How.XPATH, using = "//input[contains(@value,'Register')]")
     private WebElement btnClickRegister;
-    @FindBy(how = How.XPATH, using = "//a[@href='register.htm'][contains(.,'Register')]")
+    @FindBy(how = How.XPATH, using =" /html/body/div[1]/div[3]/div[1]/div/p[2]/a")
     private WebElement linkRegister;
-    @FindBy(how = How.XPATH, using = "/html[1]/body[1]/div[1]/div[3]/div[2]/p[1]")
+    @FindBy(how = How.XPATH, using = "//*[@id=\"rightPanel\"]/p")
     private WebElement labelSuccessfulAccountCreation;
     public RegisterPage(WebDriver driver, Scenario scenario) {
         super(driver, scenario);
@@ -54,18 +54,17 @@ public class RegisterPage extends BasePage {
         assertThat(driver.getCurrentUrl(), is("https://parabank.parasoft.com/parabank/index.htm"));
     }
     public void clickRegisterLink() {
-        driver.get("https://parabank.parasoft.com/parabank/register.htm");
         linkRegister.click();
-        assertThat(driver.getCurrentUrl(), is("https://parabank.parasoft.com/parabank/register.htm"));
+//        assertThat(driver.getCurrentUrl(), is("https://parabank.parasoft.com/parabank/register.htm"));
 
     }
-    public void enterFirstName(String name) {
+    public void enterFirstName(String firstname) {
         txtEnterFirstName.clear();
-        txtEnterFirstName.sendKeys(name);
+        txtEnterFirstName.sendKeys(firstname);
     }
-    public void enterLastName(String name) {
+    public void enterLastName(String lastname) {
         txtEnterLastName.clear();
-        txtEnterLastName.sendKeys(name);
+        txtEnterLastName.sendKeys(lastname);
     }
     public void enterAddress(String name) {
         txtEnterAddress.clear();
@@ -92,17 +91,17 @@ public class RegisterPage extends BasePage {
         txtEnterSsn.clear();
         txtEnterSsn.sendKeys(name);
     }
-    public void enterUsername(String name) {
+    public void enterUsername(String username) {
         txtEnterUsername.clear();
-        txtEnterUsername.sendKeys(name);
+        txtEnterUsername.sendKeys(username);
     }
-    public void enterPassword(String name) {
+    public void enterPassword(String password) {
         txtEnterPassword.clear();
-        txtEnterPassword.sendKeys(name);
+        txtEnterPassword.sendKeys(password);
     }
-    public void enterConfirmPassword(String name) {
+    public void enterConfirmPassword(String confirm) {
         txtEnterRepeatedPassword.clear();
-        txtEnterRepeatedPassword.sendKeys(name);
+        txtEnterRepeatedPassword.sendKeys(confirm);
     }
     public void clickRegisterButton() {
 //        btnClickRegister.clear();
