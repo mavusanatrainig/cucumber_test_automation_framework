@@ -1,6 +1,8 @@
 import com.automation.constants.Constants;
 import com.automation.driver.factory.DriverFactory;
 import com.automation.listeners.TestListener;
+import com.automation.utilities.Reports;
+import com.aventstack.extentreports.model.Report;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 //import lombok.extern.slf4j.Slf4j;
@@ -19,6 +21,8 @@ import org.openqa.selenium.support.events.EventFiringDecorator;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
 
 @Slf4j
 public class Hooks {
@@ -56,6 +60,11 @@ public class Hooks {
     @After
     public void closure(){
 
+        List<String> list = new ArrayList<>();
+        list.add("target/cucumber.json");
+
+        Reports reports = new Reports(list);
+        //reports.createCucumberRepor();
 
         log.info("Close driver successfully");
         driver.quit();

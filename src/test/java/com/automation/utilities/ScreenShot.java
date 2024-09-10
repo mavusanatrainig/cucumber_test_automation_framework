@@ -12,6 +12,7 @@ public class ScreenShot {
 
         TakesScreenshot screenshot =(TakesScreenshot) driver;
         final byte[] snap = screenshot.getScreenshotAs(OutputType.BYTES);
+        System.out.println(snap);
         scenario.attach(snap,"image/png","screenshot");
     }
 
