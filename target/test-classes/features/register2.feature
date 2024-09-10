@@ -1,18 +1,16 @@
 @register2 @smoke @regression
 Feature: Register user
 
-  Scenario Outline:
-    Given I am on  parabank website landing page
+  Scenario: Register user and handle "username taken" error
+    Given I am on the parabank website landing page
     When I click the register.htm link
-    And I pupulate the registration information
-      | first_name   | lastname   | username   | password   | confirm   |
-      | <first_name> | <lastname> | <username> | <password> | <confirm> |
+    And I populate the registration information with:
+      | first_name | lastname | password | confirm |
+      | Vusi       | Pelo     | kamo     | kamo    |
+    And I try the following usernames:
+      | mavusana  |
+      | ashely    |
+      | thandiwe  |
 
-    Then I click  register button
-    And the system confirms  registration
-    Examples:
-      | first_name | lastname | username | password | confirm |
-      | Vusi       | Pelo     | mavusana | kamo     | kamo    |
-      | p-fname    | p-lname  | ashely   | pager    | pager   |
-      | p-fname    | p-lname  | thandiwe | sweet    | sweet   |
 
+    Then the system confirms registration

@@ -13,7 +13,7 @@ import java.util.Map;
         plugin={ "json:target/cucumber.json","pretty",
                 "html:target/cucumber-reports/cucumber.html" },
         features="src/test/resources/features",
-        tags="@login"
+        tags="@register2"
 )
 @Slf4j
 public class TestRunnerParallel extends AbstractTestNGCucumberTests {
