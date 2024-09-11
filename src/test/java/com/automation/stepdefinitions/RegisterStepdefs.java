@@ -30,91 +30,95 @@ public class RegisterStepdefs {
         assertThat(driver.getCurrentUrl(),is("https://parabank.parasoft.com/parabank/index.htm"));
     }
     @When("I click the register link")
-    public void iClickTheRegisterLink() {
+    public void i_click_the_register_link() {
+
         registerPage.clickRegisterLink();
     }
-    @And("I enter name")
-    public void i_enter_name_as(String string) {
+
+//    @And("I enter name")
+//    public void i_enter_name_as(String firstname) {
+//        // Write code here that turns the phrase above into concrete actions
+//        registerPage.enterFirstName(firstname);
+//    }
+@And("I enter name as {string}")
+public void i_enter_name_as(String firstname) {
+    registerPage.enterFirstName(firstname);
+}
+
+    @And("I enter lastname as {string}")
+    public void i_enter_lastname_as(String lastname) {
         // Write code here that turns the phrase above into concrete actions
-        registerPage.enterFirstName(string);
+        registerPage.enterLastName(lastname);
     }
-    @When("I enter lastname as {string}")
-    public void i_enter_lastname_as(String string) {
-        // Write code here that turns the phrase above into concrete actions
-        registerPage.enterLastName(string);
+    @And("I enter address")
+    public void i_enter_address() {
+        String address = faker.address().streetAddress();
+        registerPage.enterAddress(address);
     }
-    @When("I enter address as {string}")
-    public void i_enter_address_as(String string) {
-        // Write code here that turns the phrase above into concrete actions
-        registerPage.enterAddress(string);
+
+    @And("I enter city")
+   public void i_enter_city() {
+    String city = faker.address().city();
+    registerPage.enterCity(city);
     }
-    @When("I enter city as {string}")
-    public void i_enter_city_as(String string) {
-        // Write code here that turns the phrase above into concrete actions
-        registerPage.enterCity(string);
+    @And("I enter state")
+    public void i_enter_state() {
+        String state = faker.address().state();
+        registerPage.enterState(state);
     }
-    @When("I enter state as {string}")
-    public void i_enter_state_as(String string) {
-        // Write code here that turns the phrase above into concrete actions
-        registerPage.enterState(string);
-    }
-    @When("I enter zipcode")
+    @And("I enter zipcode")
     public void i_enter_zipcode() {
-        // Write code here that turns the phrase above into concrete actions
-        registerPage.enterZipCode(faker.address().zipCode());
+        String zipCode = faker.address().zipCode();
+        registerPage.enterZipCode(zipCode);
     }
-    @When("I enter phone")
+    @And("I enter phone")
     public void i_enter_phone() {
-        // Write code here that turns the phrase above into concrete actions
-        registerPage.enterPhone(faker.phoneNumber().phoneNumber());
+        String phone = faker.phoneNumber().phoneNumber();
+        registerPage.enterPhone(phone);
     }
-    @When("I enter ssn")
+    @And("I enter ssn")
     public void i_enter_ssn() {
-        // Write code here that turns the phrase above into concrete actions
-        registerPage.enterSSN(faker.idNumber().ssnValid());
+        String ssn = faker.idNumber().ssnValid();
+        registerPage.enterSSN(ssn);
     }
-    @When("I enter username as {string}")
-    public void i_enter_username_as(String string) {
-        // Write code here that turns the phrase above into concrete actions
-        registerPage.enterUsername(string);
+    @And("I enter username as {string}")
+    public void iEnterUsernameAs(String username) {
+        registerPage.enterUsername(username);
+
     }
-    @When("I enter password as {string}")
-    public void i_enter_password_as(String string) {
+    @And("I enter password as {string}")
+    public void i_enter_password_as(String password) {
         // Write code here that turns the phrase above into concrete actions
-        registerPage.enterPassword(string);
+        registerPage.enterPassword(password);
     }
-    @When("I enter confirm as {string}")
-    public void i_enter_confirm_as(String string) {
+    @And("I enter confirm as {string}")
+    public void i_enter_confirm_as(String confirm) {
         // Write code here that turns the phrase above into concrete actions
-        registerPage.enterConfirmPassword(string);
+        registerPage.enterConfirmPassword(confirm);
     }
     @Then("I click the register button")
     public void i_click_the_register_button() {
         // Write code here that turns the phrase above into concrete actions
         registerPage.clickRegisterButton();
     }
-    @Then("the system confirms the registration")
+    @And("the system confirms the registration")
     public void the_system_confirms_the_registration() {
         // Write code here that turns the phrase above into concrete actions
         registerPage.verifyCreationMessage("Your account was created successfully. You are now logged in.");
     }
 
-    @And("I enter name as {string}")
-    public void iEnterNameAs(String arg0) {
-        if(arg0.equals("p-fname")){
-            registerPage.enterFirstName(faker.name().firstName());
 
-        }else {
-            registerPage.enterFirstName(arg0);
-        }
-    }
 
-    @And("I pupulate the registration information")
-    public void iPupulateTheRegistrationInformation(DataTable table) {
-        Map<String,String> data = table.transpose().asMap();
-        registerPage.enterPhone(faker.phoneNumber().phoneNumber());
-        registerPage.enterCity(faker.address().cityName());
-
-    }
 }
+
+//    @And("I pupulate the registration information")
+//    public void iPupulateTheRegistrationInformation(DataTable table) {
+//        Map<String,String> data = table.transpose().asMap();
+//        registerPage.enterPhone(faker.phoneNumber().phoneNumber());
+//        registerPage.enterCity(faker.address().cityName());
+//
+//    }
+//
+//
+//}
 

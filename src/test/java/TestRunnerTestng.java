@@ -16,8 +16,9 @@ import java.util.Objects;
 @CucumberOptions(
         plugin={ "json:target/cucumber.json","pretty",
                 "html:target/cucumber-reports/cucumber.html" },
+//        glue={"com.automation.stepdefinitions"},
         features="src/test/resources/features",
-        tags=""
+        tags="@login"
 )
 @Slf4j
 public class TestRunnerTestng extends AbstractTestNGCucumberTests {

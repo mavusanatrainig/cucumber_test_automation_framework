@@ -26,7 +26,7 @@ public class AccountOverviewStepdefs {
 
     @Given("user is logged in to the Parabank website")
     public void userIsLoggedIn() {
-        driver.get("https://parabank.parasoft.com");
+        driver.get("https://parabank.parasoft.com/parabank/index.htm");
         loginPage.enterUsername("mavusana");
         loginPage.enterPassword("kamo");
         loginPage.clickLogin();

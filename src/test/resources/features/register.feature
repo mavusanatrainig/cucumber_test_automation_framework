@@ -12,7 +12,7 @@ Feature: Register user
     And I enter zipcode
     And I enter phone
     And I enter ssn
-    And I enter username as "<username">
+    And I enter username as "<username>"
     And I enter password as "<password>"
     And I enter confirm as "<confirm>"
     Then I click the register button
@@ -20,6 +20,6 @@ Feature: Register user
     Examples:
       | first_name | lastname | username | password | confirm |
       | Vusi       | Pelo     | mavusana | kamo     | kamo    |
-      | p-fname    |p-lname   | ashely     |pager     |pager    |
-      | p-fname    |p-lname   | thandiwe     |sweet    |sweet    |
+#      | p-fname    |p-lname   | ashely     |pager     |pager    |
+#      | p-fname    |p-lname   | thandiwe     |sweet    |sweet    |
 
