@@ -1,21 +1,20 @@
+@update
 Feature: Update Profile
+
   Scenario Outline: Update Profile
+    Given the user is logged in to the Parabank websit
+    When the user clicks on the Update Contact Info tab
 
-    Given  User is logged in to PARA BANK website
-    When User clicks on Update Contact Info tab
-    And User should be taken to Update Profile screen where they can update their details
-    And User should be able to update their <FirstName>
-    And User should be able to update their "<LastName>"
-    And User should be able to update their <"Address">
-    And User should be able to update their <"City">
-    And User should be able to update their <"State">
-    And User should be able to update their <"Zip Code">
-    And User should be able to update their <"Phone">
-    Then click
+    And the user updates their first name to "<FirstName>"
+    And the user updates their last name to "<LastName>"
+    And the user updates their address to "<Address>"
+    And the user updates their city to "<City>"
+    And the user updates their state to "<State>"
+    And the user updates their zip code to "<ZipCode>"
+    And the user updates their phone number to "<Phone>"
+    Then the user clicks the Update Profile button
 
-    
     Examples:
-    |FirstName    |Last Name    |Address    |City    |State   |Zip Code|Phone       |
-    |Tsepiso      |Ramugondo    |18 West str|Jozi    |Gauteng |   0923 |0812133609  |
-    |Themba       |Vuzwayo      |09 South   |HumCrest|Gauteng |  0971  |0812133686  |
-       
+      | FirstName | LastName | Address     | City | State   | ZipCode | Phone      |
+      | ashelu    | mfov     | 18 West str | Jozi | Gauteng | 0923    | 0812133609 |
+
