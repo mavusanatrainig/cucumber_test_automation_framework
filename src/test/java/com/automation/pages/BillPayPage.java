@@ -11,37 +11,37 @@ import static org.hamcrest.core.Is.is;
 
 public class BillPayPage extends BasePage {
 
-    @FindBy(xpath = "//*[@id='payee.name']")
+    @FindBy(xpath = "//*[@id=\"billpayForm\"]/form/table/tbody/tr[1]/td[2]/input")
     private WebElement txtPayeeName;
 
-    @FindBy(xpath = "//*[@id='payee.address.street']")
+    @FindBy(xpath = "//*[@id=\"billpayForm\"]/form/table/tbody/tr[2]/td[2]/input")
     private WebElement txtAddress;
 
-    @FindBy(xpath = "//*[@id='payee.address.city']")
+    @FindBy(xpath = "//*[@id=\"billpayForm\"]/form/table/tbody/tr[3]/td[2]/input")
     private WebElement txtCity;
 
-    @FindBy(xpath = "//*[@id='payee.address.state']")
+    @FindBy(xpath = "//*[@id=\"billpayForm\"]/form/table/tbody/tr[4]/td[2]/input")
     private WebElement txtState;
 
-    @FindBy(xpath = "//*[@id='payee.address.zipCode']")
+    @FindBy(xpath = "//*[@id=\"billpayForm\"]/form/table/tbody/tr[5]/td[2]/input")
     private WebElement txtZipCode;
 
-    @FindBy(xpath = "//*[@id='payee.phoneNumber']")
+    @FindBy(xpath= "/html/body/div[1]/div[3]/div[2]/div/div[1]/form/table/tbody/tr[6]/td[2]/input")
     private WebElement txtPhoneNumber;
 
-    @FindBy(xpath = "//*[@id='payee.accountNumber']")
+    @FindBy(xpath = "//*[@id=\"billpayForm\"]/form/table/tbody/tr[8]/td[2]/input")
     private WebElement txtAccountNumber;
 
-    @FindBy(xpath = "//*[@id='verifyAccount']")
+    @FindBy(xpath = "//*[@id=\"billpayForm\"]/form/table/tbody/tr[9]/td[2]/input")
     private WebElement txtVerifyAccountNumber;
 
-    @FindBy(xpath = "//*[@id='amount']")
+    @FindBy(xpath = "//*[@id=\"billpayForm\"]/form/table/tbody/tr[11]/td[2]/input")
     private WebElement txtAmount;
 
-    @FindBy(xpath = "//*[@id='sendPayment']")
+    @FindBy(xpath = "//*[@id=\"billpayForm\"]/form/table/tbody/tr[14]/td[2]/input")
     private WebElement btnSendPayment;
 
-    @FindBy(xpath = "//*[@id='rightPanel']/h1")
+    @FindBy(xpath = "//*[@id=\"billpayResult\"]/h1")
     private WebElement successMessage;
 
     @FindBy(xpath = "//*[@id='errorPanel']")
